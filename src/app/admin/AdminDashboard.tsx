@@ -63,7 +63,30 @@ export default function AdminDashboard({ initialArticles }: { initialArticles: A
   const [editing, setEditing] = useState<Article | null>(null)
   const [tab, setTab] = useState<'list' | 'add'>('list')
   const [saving, setSaving] = useState(false)
+  const [fetching, setFetching] = useState(false)
   const [msg, setMsg] = useState('')
+
+  async function fetchMeta(url: string) {
+    if (!url.startsWith('http')) return
+    setFetching(true)
+    try {
+      const res = await fetch('/api/admin/fetch-meta', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ url }),
+      })
+      const data = await res.json()
+      setForm(f => ({
+        ...f,
+        title: data.title || f.title,
+        source: data.source || f.source,
+        date: data.date || f.date,
+        excerpt: data.excerpt || f.excerpt,
+      }))
+    } finally {
+      setFetching(false)
+    }
+  }
 
   async function logout() {
     await fetch('/api/auth', { method: 'DELETE' })
@@ -206,6 +229,16 @@ export default function AdminDashboard({ initialArticles }: { initialArticles: A
         {tab === 'add' && (
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
             <div>
+              <label style={labelStyle}>URL — paste first and fields will fill in{fetching ? ' (fetching...)' : ''}</label>
+              <input
+                style={inputStyle}
+                value={form.url}
+                onChange={e => setForm(f => ({ ...f, url: e.target.value }))}
+                onBlur={e => fetchMeta(e.target.value)}
+                placeholder="https://..."
+              />
+            </div>
+            <div>
               <label style={labelStyle}>Title *</label>
               <input style={inputStyle} value={form.title} onChange={e => setForm(f => ({ ...f, title: e.target.value }))} placeholder="Article title" />
             </div>
@@ -218,10 +251,6 @@ export default function AdminDashboard({ initialArticles }: { initialArticles: A
                 <label style={labelStyle}>Source</label>
                 <input style={inputStyle} value={form.source} onChange={e => setForm(f => ({ ...f, source: e.target.value }))} placeholder="e.g. LinkedIn, The Guardian" />
               </div>
-            </div>
-            <div>
-              <label style={labelStyle}>URL (optional)</label>
-              <input style={inputStyle} value={form.url} onChange={e => setForm(f => ({ ...f, url: e.target.value }))} placeholder="https://..." />
             </div>
             <div>
               <label style={labelStyle}>Excerpt</label>
