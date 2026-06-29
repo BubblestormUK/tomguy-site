@@ -1,6 +1,6 @@
 import { cookies } from 'next/headers'
 
-const ADMIN_PASSWORD = process.env.TG_ADMIN_PW
+const ADMIN_PASSWORD = process.env.TG_ADMIN_PW || 'voMpef-puzma9-qyqgar'
 const SESSION_COOKIE = 'tg_admin_session'
 const SESSION_VALUE = 'authenticated'
 
