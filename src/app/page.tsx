@@ -1,65 +1,114 @@
-import Image from "next/image";
+import Footer from '@/components/Footer'
+import Link from 'next/link'
+
+const WP = 'https://www.tomguy.co/wp-content/uploads/2025/02'
+
+const projects = [
+  {
+    slug: 'nido',
+    name: 'Nido / Livensa Living',
+    image: `${WP}/bt-image.jpg`, // placeholder until you provide Nido image
+    description: 'Nido and Livensa Living are premium purpose-built student accommodation and young professional living brands operating across Europe. Leading the product and experience vision to create spaces where residents don\'t just live — they thrive.',
+    href: '/projects/nido',
+  },
+  {
+    slug: 'bt',
+    name: 'Etc. at BT Group',
+    image: `${WP}/bt-image.jpg`,
+    description: 'Etc. at BT Group is BT\'s incubation hub. Etc. is designed to build products and services in categories adjacent to the core, using all the most beautiful parts of the mothership.',
+    href: '/projects/bt',
+  },
+  {
+    slug: 'vodafone',
+    name: 'Vodafone Smart Tech',
+    image: `${WP}/vodafone-image.jpg`,
+    description: 'Vodafone Smart Tech was Vodafone\'s consumer IoT business, which created category leading smart devices that create moments of magic in people\'s lives.',
+    href: '/projects/vodafone',
+  },
+  {
+    slug: 'hive',
+    name: 'Hive',
+    image: `${WP}/hive-image.jpg`,
+    description: 'Hive brought the connected home to mass market in 2013 with the first ever smart thermostat, transforming home energy for millions of customers and simplifying the home heating experience.',
+    href: '/projects/hive',
+  },
+]
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <>
+      <div className="site-content pt-5">
+        <div className="container">
+          <div className="row">
+            {/* Text - right on desktop */}
+            <div className="col-md-3 order-md-last" style={{ marginBottom: '1.75rem' }}>
+              <div className="mb-7 mb-md-0">
+                <h1>
+                  <span style={{ fontWeight: 400 }}>Developing <span style={{ color: '#999' }}>Products.</span><br /></span>
+                  <span style={{ fontWeight: 400 }}><span style={{ color: '#333' }}>Building <span style={{ color: '#999' }}>Startups.</span></span><br /></span>
+                  <span style={{ fontWeight: 400 }}>Driving <span style={{ color: '#999' }}>Innovation.</span><br /></span>
+                  <span style={{ fontWeight: 400 }}>Creating <span style={{ color: '#999' }}>Culture.</span></span>
+                </h1>
+                <p>&nbsp;</p>
+                <p><Link href="/the-playbook">Playbook &gt;</Link></p>
+              </div>
+            </div>
+
+            {/* Video - left on desktop */}
+            <div className="col-md-9 order-md-first">
+              <div className="media-home position-relative">
+                <video
+                  autoPlay
+                  muted
+                  playsInline
+                  loop
+                  className="video-fill border-radius"
+                >
+                  <source src={`${WP}/NEW-PENDING-For-Tammy-reference-only-sizzle.mp4`} type="video/mp4" />
+                </video>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+
+        {/* Projects */}
+        <div className="container pt-10 pt-md-12">
+          <h1 className="mb-5 mb-md-6">Projects</h1>
+
+          {projects.map((project) => (
+            <div key={project.slug} className="row project-wrapper">
+              <div className="col-12">
+                <p>{project.name}</p>
+                <div className="row py-5">
+                  <div className="col-md-9">
+                    <div className="media-project position-relative mb-5 mb-md-0">
+                      <img
+                        src={project.image}
+                        alt={project.name}
+                        className="image-fill top-0 border-radius"
+                      />
+                      <Link href={project.href} style={{ position: 'absolute', inset: 0, zIndex: 1 }} />
+                    </div>
+                  </div>
+                  <div className="col-md-3">
+                    <div className="mb-5">
+                      <div className="text-primary">
+                        <p style={{ fontWeight: 400 }}>{project.description}</p>
+                      </div>
+                    </div>
+                    <Link href={project.href}>See more &gt;</Link>
+                  </div>
+                  <div className="col-12">
+                    <div className="divider w-100 bg-primary mt-5" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
-      </main>
-    </div>
-  );
+      </div>
+
+      <Footer />
+    </>
+  )
 }
