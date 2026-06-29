@@ -26,7 +26,7 @@ export default function SuperpowerPage() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 scale-up">
               <div className="portrait_wrapper position-relative">
                 <img src={`${WP}/about_top.jpg`} alt="Tom Guy" className="image-fill top-0 border-radius" />
               </div>
@@ -35,7 +35,7 @@ export default function SuperpowerPage() {
 
           {/* Dr Kustow quote */}
           <div className="row gx-md-8 media-text-split-wrapper">
-            <div className="col-md-6 d-flex align-items-center order-md-2">
+            <div className="col-md-6 d-flex align-items-center order-md-2 slide-right">
               <div className="mb-5 mb-md-0">
                 <p>
                   <span style={{ fontWeight: 400, color: '#999' }}>

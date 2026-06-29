@@ -43,13 +43,13 @@ export default function ProjectsPage() {
               <div className="col-12">
                 <p>{project.name}</p>
                 <div className="row py-5">
-                  <div className="col-md-9">
+                  <div className="col-md-9 scale-up">
                     <div className="media-project position-relative mb-5 mb-md-0">
                       <img src={project.image} alt={project.name} className="image-fill top-0 border-radius" />
                       <Link href={`/projects/${project.slug}`} style={{ position: 'absolute', inset: 0, zIndex: 1 }} />
                     </div>
                   </div>
-                  <div className="col-md-3">
+                  <div className="col-md-3 slide-right">
                     <div className="mb-5">
                       <div className="text-primary">
                         <p style={{ fontWeight: 400 }}>{project.description}</p>

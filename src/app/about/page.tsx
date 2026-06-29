@@ -54,7 +54,7 @@ export default function AboutPage() {
       <div className="site-content pt-5 pt-md-8">
         <div className="container">
           <div className="row gx-md-8 mb-8 mb-md-10">
-            <div className="col-md-6">
+            <div className="col-md-6 slide-left">
               <h1 className="mb-5 mb-md-6">About</h1>
               <p className="top_summary mb-6 mb-md-0">
                 I&apos;m a startup founder, product designer and board advisor passionate about building products that create magical moments in people&apos;s lives.
@@ -71,7 +71,7 @@ export default function AboutPage() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 scale-up">
               <div className="portrait_wrapper position-relative">
                 <img src={`${WP}/about_top.jpg`} alt="Tom Guy" className="image-fill top-0 border-radius" />
               </div>
@@ -80,13 +80,13 @@ export default function AboutPage() {
 
           {/* Awards */}
           <div className="row gx-md-8 media-text-split-wrapper">
-            <div className="col-md-6 d-flex align-items-center order-md-2">
+            <div className="col-md-6 d-flex align-items-center order-md-2 slide-right">
               <div className="mb-5 mb-md-0">
                 <h1 className="mb-3 mb-md-5">Awards</h1>
                 <p><span style={{ fontWeight: 400 }}>I&apos;ve been lucky enough to collaborate with some brilliant product designers to create award winning solutions over the course of the last decade. From culture, to product and innovation, these awards have spanned almost every industry and every business that I have worked in.</span></p>
               </div>
             </div>
-            <div className="col-md-6 order-md-1">
+            <div className="col-md-6 order-md-1 scale-up">
               <div className="media-text-split position-relative mb-5 mb-md-0">
                 <img src={`${WP}/Awards-Images-scaled.jpg`} className="image-fill border-radius" alt="Awards" />
               </div>
@@ -103,7 +103,7 @@ export default function AboutPage() {
             </div>
           </div>
           <div className="row pt-4 pb-5">
-            <div className="col-12">
+            <div className="col-12 scale-up">
               <TestimonialSlider testimonials={testimonials} />
             </div>
           </div>

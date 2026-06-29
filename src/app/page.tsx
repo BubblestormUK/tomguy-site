@@ -41,7 +41,7 @@ export default function Home() {
         <div className="container">
           <div className="row">
             {/* Text - right on desktop */}
-            <div className="col-md-3 order-md-last" style={{ marginBottom: '1.75rem' }}>
+            <div className="col-md-3 order-md-last slide-right" style={{ marginBottom: '1.75rem' }}>
               <div className="mb-7 mb-md-0">
                 <h1>
                   <span style={{ fontWeight: 400 }}>Developing <span style={{ color: '#999' }}>Products.</span><br /></span>
@@ -55,7 +55,7 @@ export default function Home() {
             </div>
 
             {/* Video - left on desktop */}
-            <div className="col-md-9 order-md-first">
+            <div className="col-md-9 order-md-first scale-up">
               <div className="media-home position-relative">
                 <video
                   autoPlay
@@ -80,7 +80,7 @@ export default function Home() {
               <div className="col-12">
                 <p>{project.name}</p>
                 <div className="row py-5">
-                  <div className="col-md-9">
+                  <div className="col-md-9 scale-up">
                     <div className="media-project position-relative mb-5 mb-md-0">
                       <img
                         src={project.image}
@@ -90,7 +90,7 @@ export default function Home() {
                       <Link href={project.href} style={{ position: 'absolute', inset: 0, zIndex: 1 }} />
                     </div>
                   </div>
-                  <div className="col-md-3">
+                  <div className="col-md-3 slide-right">
                     <div className="mb-5">
                       <div className="text-primary">
                         <p style={{ fontWeight: 400 }}>{project.description}</p>

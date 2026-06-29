@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import SiteNav from "@/components/SiteNav";
+import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
   title: "Tom Guy",
@@ -16,6 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en-GB">
       <body>
         <SiteNav />
+        <ScrollReveal />
         {children}
       </body>
     </html>
