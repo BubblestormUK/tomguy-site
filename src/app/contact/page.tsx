@@ -1,6 +1,6 @@
 import Footer from '@/components/Footer'
 
-export const metadata = { title: 'Contact — Tom Guy' }
+export const metadata = { title: 'Contact - Tom Guy' }
 
 export default function ContactPage() {
   return (

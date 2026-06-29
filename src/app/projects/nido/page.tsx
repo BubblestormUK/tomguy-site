@@ -1,6 +1,6 @@
 import Footer from '@/components/Footer'
 
-export const metadata = { title: 'Nido / Livensa Living — Tom Guy' }
+export const metadata = { title: 'Nido / Livensa Living - Tom Guy' }
 const WP = 'https://www.tomguy.co/wp-content/uploads/2025/02'
 
 export default function NidoPage() {
@@ -13,7 +13,7 @@ export default function NidoPage() {
               <h1 className="mb-5 mb-md-6">Nido / Livensa Living</h1>
             </div>
             <div className="col-md-6">
-              <p className="top_summary">Nido and Livensa Living are premium purpose-built student accommodation and young professional living brands operating across Europe. Leading the product and experience vision to create spaces where residents don&apos;t just live — they thrive.</p>
+              <p className="top_summary">Nido and Livensa Living are premium purpose-built student accommodation and young professional living brands operating across Europe. Leading the product and experience vision to create spaces where residents don&apos;t just live - they thrive.</p>
             </div>
           </div>
           <div className="portfolio_wrapper position-relative">

@@ -1,6 +1,6 @@
 import Footer from '@/components/Footer'
 
-export const metadata = { title: 'Etc. at BT Group — Tom Guy' }
+export const metadata = { title: 'Etc. at BT Group - Tom Guy' }
 const WP = 'https://www.tomguy.co/wp-content/uploads/2025/02'
 const WP1 = 'https://www.tomguy.co/wp-content/uploads/2025/01'
 
@@ -29,7 +29,7 @@ const subProjects = [
   {
     image: `${WP}/Etc.-tap-to-PayProject-Image_Portrait-scaled.jpg`,
     title: 'Etc. Pay',
-    summary: "Our first exploration into digital transformation, building a safe, secure modular cloud payments platform for BT and EE's payment needs. This included a subscription engine, an internal user interface and a no-code deployment approach. We wanted to test our startup incubation approach in a core area of the business and in digital transformation — the result was a platform built in record time ready to support billions of pounds in transactions.",
+    summary: "Our first exploration into digital transformation, building a safe, secure modular cloud payments platform for BT and EE's payment needs. This included a subscription engine, an internal user interface and a no-code deployment approach. We wanted to test our startup incubation approach in a core area of the business and in digital transformation - the result was a platform built in record time ready to support billions of pounds in transactions.",
     col1: '', col2: '',
   },
   {

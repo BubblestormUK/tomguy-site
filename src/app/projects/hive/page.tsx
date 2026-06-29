@@ -1,6 +1,6 @@
 import Footer from '@/components/Footer'
 
-export const metadata = { title: 'Hive — Tom Guy' }
+export const metadata = { title: 'Hive - Tom Guy' }
 const WP1 = 'https://www.tomguy.co/wp-content/uploads/2025/01'
 const WP3 = 'https://www.tomguy.co/wp-content/uploads/2025/03'
 const WP = 'https://www.tomguy.co/wp-content/uploads/2025/02'

@@ -2,7 +2,7 @@ const principles = [
   {
     number: '01',
     title: 'Start with the human',
-    body: 'Every great product starts with a deep understanding of the person using it. Not the persona, not the demographic — the actual human being with real emotions, habits, and context.',
+    body: 'Every great product starts with a deep understanding of the person using it. Not the persona, not the demographic - the actual human being with real emotions, habits, and context.',
   },
   {
     number: '02',
@@ -12,7 +12,7 @@ const principles = [
   {
     number: '03',
     title: 'Move fast, but not reckless',
-    body: 'Speed matters in a startup — but speed without direction is just noise. Move fast on the things you understand, slow down on the things that matter most.',
+    body: 'Speed matters in a startup - but speed without direction is just noise. Move fast on the things you understand, slow down on the things that matter most.',
   },
   {
     number: '04',
@@ -22,7 +22,7 @@ const principles = [
   {
     number: '05',
     title: 'Embrace the uncomfortable',
-    body: 'The most interesting work lives at the edge of your comfort zone. Lean into ambiguity, uncertainty, and the feeling of not quite knowing — that\'s where innovation lives.',
+    body: 'The most interesting work lives at the edge of your comfort zone. Lean into ambiguity, uncertainty, and the feeling of not quite knowing - that\'s where innovation lives.',
   },
   {
     number: '06',

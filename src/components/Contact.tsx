@@ -37,7 +37,7 @@ export default function Contact() {
             marginBottom: '2.5rem',
             maxWidth: 480,
           }}>
-            Whether you&apos;re building something new, navigating a complex product challenge, or just want to exchange ideas — I&apos;d love to hear from you.
+            Whether you&apos;re building something new, navigating a complex product challenge, or just want to exchange ideas - I&apos;d love to hear from you.
           </p>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
             <a

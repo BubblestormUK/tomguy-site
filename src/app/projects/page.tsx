@@ -1,7 +1,7 @@
 import Footer from '@/components/Footer'
 import Link from 'next/link'
 
-export const metadata = { title: 'Projects — Tom Guy' }
+export const metadata = { title: 'Projects - Tom Guy' }
 
 const WP = 'https://www.tomguy.co/wp-content/uploads/2025/02'
 
@@ -10,7 +10,7 @@ const projects = [
     slug: 'nido',
     name: 'Nido / Livensa Living',
     image: `${WP}/bt-image.jpg`,
-    description: "Nido and Livensa Living are premium purpose-built student accommodation and young professional living brands operating across Europe. Leading the product and experience vision to create spaces where residents don't just live — they thrive.",
+    description: "Nido and Livensa Living are premium purpose-built student accommodation and young professional living brands operating across Europe. Leading the product and experience vision to create spaces where residents don't just live - they thrive.",
   },
   {
     slug: 'bt',

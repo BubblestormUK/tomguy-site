@@ -8,7 +8,7 @@ const projects = [
     slug: 'nido',
     name: 'Nido / Livensa Living',
     image: `${WP}/bt-image.jpg`, // placeholder until you provide Nido image
-    description: 'Nido and Livensa Living are premium purpose-built student accommodation and young professional living brands operating across Europe. Leading the product and experience vision to create spaces where residents don\'t just live — they thrive.',
+    description: 'Nido and Livensa Living are premium purpose-built student accommodation and young professional living brands operating across Europe. Leading the product and experience vision to create spaces where residents don\'t just live - they thrive.',
     href: '/projects/nido',
   },
   {

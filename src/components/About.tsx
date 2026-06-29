@@ -27,7 +27,7 @@ export default function About() {
             color: 'var(--fg)',
             marginBottom: '2rem',
           }}>
-            I&apos;m a product leader with two decades of experience building category-defining businesses — from the first smart thermostat to consumer IoT at Vodafone, from BT&apos;s innovation hub to premium student living brands.
+            I&apos;m a product leader with two decades of experience building category-defining businesses - from the first smart thermostat to consumer IoT at Vodafone, from BT&apos;s innovation hub to premium student living brands.
           </p>
           <p style={{
             fontSize: '1rem',
@@ -35,7 +35,7 @@ export default function About() {
             lineHeight: 1.8,
             color: 'var(--muted)',
           }}>
-            I work at the intersection of technology, design, and human behaviour. I believe that the best products don&apos;t just solve problems — they create moments of genuine magic in people&apos;s everyday lives.
+            I work at the intersection of technology, design, and human behaviour. I believe that the best products don&apos;t just solve problems - they create moments of genuine magic in people&apos;s everyday lives.
           </p>
         </div>
       </div>

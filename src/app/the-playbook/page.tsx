@@ -1,7 +1,7 @@
 import Footer from '@/components/Footer'
 import AccordionSection from '@/components/AccordionSection'
 
-export const metadata = { title: 'Playbook — Tom Guy' }
+export const metadata = { title: 'Playbook - Tom Guy' }
 
 const WP = 'https://www.tomguy.co/wp-content/uploads/2025/02'
 

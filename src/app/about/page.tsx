@@ -1,7 +1,7 @@
 import Footer from '@/components/Footer'
 import TestimonialSlider from '@/components/TestimonialSlider'
 
-export const metadata = { title: 'About — Tom Guy' }
+export const metadata = { title: 'About - Tom Guy' }
 
 const WP = 'https://www.tomguy.co/wp-content/uploads/2025/02'
 
@@ -27,7 +27,7 @@ const testimonials = [
     image: `${WP}/testimonial-placeholder-pamela-brown.jpg`,
   },
   {
-    quote: "One thing I've always admired about Tom is that he always brings his whole self to work every day, and empowers us to do the same. He makes space for open, honest conversations, taking time to make sure everyone can speak and be truly heard. As a black woman working in tech, I know first hand how powerful creating that space can be for inspiring inclusivity and creating more diverse seats at the table. He's an active ally, a mentor and an advocate for both myself and others in the team — both within and beyond the day to day.",
+    quote: "One thing I've always admired about Tom is that he always brings his whole self to work every day, and empowers us to do the same. He makes space for open, honest conversations, taking time to make sure everyone can speak and be truly heard. As a black woman working in tech, I know first hand how powerful creating that space can be for inspiring inclusivity and creating more diverse seats at the table. He's an active ally, a mentor and an advocate for both myself and others in the team - both within and beyond the day to day.",
     name: 'Margaret Sheyindemi, startup growth manager, Etc. at BT Group',
     image: `${WP}/testimonial-placeholder-Margaret-Sheyindemi.jpg`,
   },
@@ -67,7 +67,7 @@ export default function AboutPage() {
                 <div className="col-md-6 body_text_xs">
                   <p><span style={{ fontWeight: 400 }}>Before joining Vodafone, I was a founding member of Hive, where I was responsible for bringing the connected home to the mass market by transforming the way customers interacted firstly with their heating, then the entire smart home. Hive became an official Superbrand in 2015 and a CES Innovation honouree in 2019.</span></p>
                   <p><span style={{ fontWeight: 400 }}>Having also worked across a wealth of energetic technology start-ups including Yachtsie and Catch Media, I&apos;m always looking at how the products I create can push boundaries and lead category growth.</span></p>
-                  <p><span style={{ fontWeight: 400 }}>None of this would have been possible on my own. There have been countless people along the way—both directly and indirectly—who have contributed to the successes shared on this online Portfolio. But the core group we established in the early days of Hive, who went on to build Smart Tech at Vodafone and Etc. at BT Group, are the most important. What we&apos;ve accomplished together, alongside many others over the last decade, feels nothing short of a miracle.</span></p>
+                  <p><span style={{ fontWeight: 400 }}>None of this would have been possible on my own. There have been countless people along the way-both directly and indirectly-who have contributed to the successes shared on this online Portfolio. But the core group we established in the early days of Hive, who went on to build Smart Tech at Vodafone and Etc. at BT Group, are the most important. What we&apos;ve accomplished together, alongside many others over the last decade, feels nothing short of a miracle.</span></p>
                 </div>
               </div>
             </div>

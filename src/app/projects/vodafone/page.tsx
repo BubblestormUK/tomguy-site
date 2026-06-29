@@ -1,6 +1,6 @@
 import Footer from '@/components/Footer'
 
-export const metadata = { title: 'Vodafone Smart Tech — Tom Guy' }
+export const metadata = { title: 'Vodafone Smart Tech - Tom Guy' }
 const WP = 'https://www.tomguy.co/wp-content/uploads/2025/02'
 const WP1 = 'https://www.tomguy.co/wp-content/uploads/2025/01'
 
@@ -70,7 +70,7 @@ export default function VodafonePage() {
               <p><span style={{fontWeight:400}}>Vodafone wanted to build on its connectivity platform, which up until 2020 had predominantly been created for enterprise, with a number of focused consumer IOT products. We wanted the products to be first party designed and owned, rather than a disparate collection of third party products that didn&apos;t function harmoniously.</span></p>
             </div>
             <div className="col-md-6 body_text_sm">
-              <p><span style={{fontWeight:400}}>To ensure we could build a proposition that truly resonated with consumers, we started to build out a &apos;Designed and Connected by Vodafone&apos; design language and ways of working to all first party hardware in Vodafone leading with the award winning Ultra Hub router — underpinning Vodafone broadband propositions.</span></p>
+              <p><span style={{fontWeight:400}}>To ensure we could build a proposition that truly resonated with consumers, we started to build out a &apos;Designed and Connected by Vodafone&apos; design language and ways of working to all first party hardware in Vodafone leading with the award winning Ultra Hub router - underpinning Vodafone broadband propositions.</span></p>
             </div>
           </div>
 
