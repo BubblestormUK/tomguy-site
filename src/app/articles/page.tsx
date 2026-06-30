@@ -34,10 +34,10 @@ export default function ArticlesPage() {
           <h1 className="mb-8 slide-left">Articles</h1>
 
           {years.map(year => (
-            <div key={year} className="mb-10">
-              <p style={{ fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: '#868686', borderTop: '1px solid #e0e0e0', paddingTop: '1rem', marginBottom: '2rem' }}>{year}</p>
+            <div key={year} className="mb-6">
+              <p style={{ fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: '#868686', borderTop: '1px solid #e0e0e0', paddingTop: '0.5rem', marginBottom: '1rem' }}>{year}</p>
 
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '2rem' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.25rem' }}>
                 {byYear[year].map(article => {
                   const img = IMAGES[idx++ % IMAGES.length]
                   return (
