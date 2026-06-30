@@ -9,6 +9,7 @@ type Article = {
   date: string
   source: string
   url: string
+  image: string
   excerpt: string
   body: string
 }
@@ -18,6 +19,7 @@ const empty: Omit<Article, 'id' | 'year'> = {
   date: new Date().toISOString().slice(0, 10),
   source: 'LinkedIn',
   url: '',
+  image: '',
   excerpt: '',
   body: '',
 }
@@ -82,6 +84,7 @@ export default function AdminDashboard({ initialArticles }: { initialArticles: A
         source: data.source || f.source,
         date: data.date || f.date,
         excerpt: data.excerpt || f.excerpt,
+        image: data.image || f.image,
       }))
     } finally {
       setFetching(false)
@@ -143,7 +146,7 @@ export default function AdminDashboard({ initialArticles }: { initialArticles: A
 
   function startEdit(a: Article) {
     setEditing(a)
-    setForm({ title: a.title, date: a.date, source: a.source, url: a.url, excerpt: a.excerpt, body: a.body })
+    setForm({ title: a.title, date: a.date, source: a.source, url: a.url, image: a.image || '', excerpt: a.excerpt, body: a.body })
     setTab('add')
   }
 
@@ -237,6 +240,15 @@ export default function AdminDashboard({ initialArticles }: { initialArticles: A
                 onBlur={e => fetchMeta(e.target.value)}
                 placeholder="https://..."
               />
+            </div>
+            {form.image && (
+              <div>
+                <img src={form.image} alt="" style={{ width: '100%', maxHeight: 180, objectFit: 'cover', borderRadius: 4, marginBottom: 8 }} />
+              </div>
+            )}
+            <div>
+              <label style={labelStyle}>Image URL (auto-filled for non-LinkedIn)</label>
+              <input style={inputStyle} value={form.image} onChange={e => setForm(f => ({ ...f, image: e.target.value }))} placeholder="https://... or paste your own image URL" />
             </div>
             <div>
               <label style={labelStyle}>Title *</label>

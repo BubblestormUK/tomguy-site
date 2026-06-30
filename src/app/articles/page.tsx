@@ -1,17 +1,9 @@
 'use client'
 import Footer from '@/components/Footer'
 import articlesData from '@/data/articles.json'
-import Link from 'next/link'
 
-const ArrowRight = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="25.707" height="17.414" viewBox="0 0 25.707 17.414" className="arrow-right">
-    <g transform="translate(-1030.5 -458.793)">
-      <line x2="25" transform="translate(1030.5 467.5)" fill="none" stroke="#000" strokeWidth="1"/>
-      <line x2="8" y2="8" transform="translate(1047.5 459.5)" fill="none" stroke="#000" strokeLinecap="square" strokeWidth="1"/>
-      <line y1="8" x2="8" transform="translate(1047.5 467.5)" fill="none" stroke="#000" strokeLinecap="square" strokeWidth="1"/>
-    </g>
-  </svg>
-)
+const WP = 'https://www.tomguy.co/wp-content/uploads/2025/02'
+const FALLBACK = `${WP}/bt-image.jpg`
 
 export default function ArticlesPage() {
   const byYear = articlesData.reduce((acc, a) => {
@@ -26,36 +18,38 @@ export default function ArticlesPage() {
     <>
       <div className="site-content pt-5">
         <div className="container">
-          <div className="row pb-6">
-            <div className="col-md-3">
-              <h1 className="mb-3 mb-md-6">Articles</h1>
-            </div>
-            <div className="col-md-6 pt-md-10">
-              {years.map(year => (
-                <div key={year} className="article-holder mb-10">
-                  <div className="article-header position-relative pb-2">
-                    <p>{year}</p>
-                  </div>
-                  {byYear[year].map(article => (
-                    <div key={article.id} className="article-item position-relative text-primary pb-4 mb-4">
-                      <div className="pe-6">{article.title}</div>
-                      <div className="position-absolute top-0 end-0">
-                        <ArrowRight />
-                      </div>
-                      {article.url && (
-                        <a className="stretched-link" href={article.url} target="_blank" rel="noopener noreferrer" />
-                      )}
-                    </div>
-                  ))}
-                </div>
-              ))}
+          <h1 className="mb-5 mb-md-8 slide-left">Articles</h1>
 
-              <p style={{ fontSize: '0.9rem', color: '#868686' }}>
-                Want to add an article?{' '}
-                <Link href="/admin" style={{ color: '#000', textDecoration: 'underline' }}>Admin</Link>
-              </p>
+          {years.map(year => (
+            <div key={year} className="mb-10">
+              <p style={{ fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: '#868686', marginBottom: '1.5rem' }}>{year}</p>
+              <div className="row gx-md-6 gy-6">
+                {byYear[year].map(article => (
+                  <div key={article.id} className="col-md-4 scale-up">
+                    <a
+                      href={article.url || '#'}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}
+                    >
+                      <div style={{ aspectRatio: '16/10', borderRadius: '0.625rem', overflow: 'hidden', marginBottom: '1rem' }}>
+                        <img
+                          src={(article as any).image || FALLBACK}
+                          alt={article.title}
+                          style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                          onError={(e) => { (e.target as HTMLImageElement).src = FALLBACK }}
+                        />
+                      </div>
+                      <p style={{ fontSize: '0.6rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: '#868686', border: '1px solid #868686', display: 'inline-block', padding: '0.15rem 0.4rem', marginBottom: '0.5rem' }}>{article.source}</p>
+                      <p style={{ fontSize: '0.75rem', color: '#868686', marginBottom: '0.4rem' }}>{article.date}</p>
+                      <p style={{ fontSize: '0.95rem', fontWeight: 400, lineHeight: 1.4 }}>{article.title}</p>
+                    </a>
+                  </div>
+                ))}
+              </div>
+              <div style={{ borderTop: '1px solid #e0e0e0', marginTop: '3rem' }} />
             </div>
-          </div>
+          ))}
         </div>
       </div>
       <Footer />

@@ -6,6 +6,7 @@
     "date": "2025-03-15",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/in/tomguyuk/",
+    "image": "",
     "excerpt": "Navigating ADHD and a sense of justice in a corporate world that isn't always ready for it.",
     "body": ""
   },
@@ -16,6 +17,7 @@
     "date": "2025-01-20",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/in/tomguyuk/",
+    "image": "",
     "excerpt": "How 25 billion data points can transform businesses and unlock new possibilities.",
     "body": ""
   },
@@ -26,6 +28,7 @@
     "date": "2024-09-10",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/in/tomguyuk/",
+    "image": "",
     "excerpt": "A candid take on living and working with ADHD.",
     "body": ""
   },
@@ -36,6 +39,7 @@
     "date": "2024-06-01",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/in/tomguyuk/",
+    "image": "",
     "excerpt": "Reflecting on two years building BT's innovation hub.",
     "body": ""
   },
@@ -46,6 +50,7 @@
     "date": "2024-01-20",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/in/tomguyuk/",
+    "image": "",
     "excerpt": "A roundup of the most interesting trends from CES 2024.",
     "body": ""
   },
@@ -56,6 +61,7 @@
     "date": "2024-03-05",
     "source": "Financial Times",
     "url": "https://www.ft.com",
+    "image": "",
     "excerpt": "BT repurposes its first street cabinet as an electric vehicle charging station.",
     "body": ""
   },
@@ -66,6 +72,7 @@
     "date": "2024-03-06",
     "source": "Sky News",
     "url": "https://news.sky.com",
+    "image": "",
     "excerpt": "Tom Guy discusses BT's first green cabinet charge install on Sky News.",
     "body": ""
   },
@@ -76,6 +83,7 @@
     "date": "2024-01-15",
     "source": "BBC",
     "url": "https://www.bbc.co.uk",
+    "image": "",
     "excerpt": "Tom Guy discusses CES 2024 trends on BBC Radio 4's You and Yours.",
     "body": ""
   },
@@ -86,6 +94,7 @@
     "date": "2023-08-14",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/in/tomguyuk/",
+    "image": "",
     "excerpt": "Exploring how technology can address the growing healthcare crisis.",
     "body": ""
   },
@@ -96,6 +105,7 @@
     "date": "2023-05-03",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/in/tomguyuk/",
+    "image": "",
     "excerpt": "Building startups within large corporations requires a particular kind of faith.",
     "body": ""
   },
@@ -106,6 +116,7 @@
     "date": "2023-04-11",
     "source": "The Guardian",
     "url": "https://www.theguardian.com",
+    "image": "",
     "excerpt": "BT invests £5m in building a drone superhighway across southern England.",
     "body": ""
   },
@@ -116,6 +127,7 @@
     "date": "2023-02-28",
     "source": "IoT Tech News",
     "url": "https://iottechnews.com",
+    "image": "",
     "excerpt": "BT powers the UK's first medical drone trial.",
     "body": ""
   },
@@ -126,16 +138,18 @@
     "date": "2022-09-20",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/in/tomguyuk/",
+    "image": "",
     "excerpt": "Large companies need to think and act more like startups to stay relevant.",
     "body": ""
   },
   {
     "id": "drones-unlocking-skies-2022",
-    "title": "Unlocking the skies for drones. It isn't rocket science… is it?",
+    "title": "Unlocking the skies for drones. It isn't rocket science... is it?",
     "year": 2022,
     "date": "2022-06-10",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/in/tomguyuk/",
+    "image": "",
     "excerpt": "What it actually takes to open UK airspace for commercial drone operations.",
     "body": ""
   },
@@ -146,6 +160,7 @@
     "date": "2022-04-05",
     "source": "Sifted",
     "url": "https://sifted.eu",
+    "image": "",
     "excerpt": "Sifted explores how BT is moving beyond its telecoms roots.",
     "body": ""
   },
@@ -156,6 +171,7 @@
     "date": "2022-02-18",
     "source": "Wallpaper",
     "url": "https://www.wallpaper.com",
+    "image": "",
     "excerpt": "Tom Guy discusses Vodafone Smart Tech and the future of IoT with Wallpaper magazine.",
     "body": ""
   },
@@ -166,6 +182,7 @@
     "date": "2021-11-08",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/in/tomguyuk/",
+    "image": "",
     "excerpt": "The Russian Pencil is one of the best kept secrets in product design thinking.",
     "body": ""
   },
@@ -176,7 +193,8 @@
     "date": "2018-01-09",
     "source": "Dezeen",
     "url": "https://www.dezeen.com",
-    "excerpt": "Designer Yves Béhar debuts the Hive View home security camera at CES 2018.",
+    "image": "",
+    "excerpt": "Designer Yves Behar debuts the Hive View home security camera at CES 2018.",
     "body": ""
   }
 ]

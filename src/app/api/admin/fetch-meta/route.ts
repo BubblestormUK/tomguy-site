@@ -42,13 +42,17 @@ export async function POST(req: NextRequest) {
       html.match(/<meta property="og:description" content="([^"]+)"/)?.[1] ||
       html.match(/<meta name="description" content="([^"]+)"/)?.[1] || ''
 
+    const image =
+      html.match(/<meta property="og:image" content="([^"]+)"/)?.[1] ||
+      html.match(/<meta name="twitter:image" content="([^"]+)"/)?.[1] || ''
+
     const dateStr =
       html.match(/<meta property="article:published_time" content="([^"]+)"/)?.[1] ||
       html.match(/<time[^>]+datetime="([^"]+)"/)?.[1] || ''
 
     const date = dateStr ? dateStr.slice(0, 10) : today
 
-    return NextResponse.json({ title: title.trim(), excerpt: excerpt.trim(), source, date })
+    return NextResponse.json({ title: title.trim(), excerpt: excerpt.trim(), image: image.trim(), source, date })
   } catch {
     return NextResponse.json({ source, date: today, title: '', excerpt: '' })
   }
