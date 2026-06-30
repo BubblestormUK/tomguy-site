@@ -37,11 +37,11 @@ export default function ArticlesPage() {
             <div key={year} className="mb-10">
               <p style={{ fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: '#868686', borderTop: '1px solid #e0e0e0', paddingTop: '1rem', marginBottom: '2rem' }}>{year}</p>
 
-              <div className="row gx-md-5 gy-6">
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '2rem' }}>
                 {byYear[year].map(article => {
                   const img = IMAGES[idx++ % IMAGES.length]
                   return (
-                    <div key={article.id} className="col-md-4">
+                    <div key={article.id}>
                       <a href={article.url || '#'} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
                         <div style={{ width: '100%', height: '220px', borderRadius: '0.5rem', overflow: 'hidden', marginBottom: '1.25rem' }}>
                           <img
