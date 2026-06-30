@@ -32,7 +32,7 @@ export default function ArticlesPage() {
                       rel="noopener noreferrer"
                       style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}
                     >
-                      <div style={{ aspectRatio: '16/10', borderRadius: '0.625rem', overflow: 'hidden', marginBottom: '1rem' }}>
+                      <div style={{ aspectRatio: '1/1', borderRadius: '0.625rem', overflow: 'hidden', marginBottom: '1rem' }}>
                         <img
                           src={(article as any).image || FALLBACK}
                           alt={article.title}
