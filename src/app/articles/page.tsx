@@ -3,14 +3,14 @@ import Footer from '@/components/Footer'
 import articlesData from '@/data/articles.json'
 
 const IMAGES = [
-  'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&q=80',
-  'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&q=80',
-  'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80',
-  'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&q=80',
-  'https://images.unsplash.com/photo-1556761175-4b46a572b786?w=600&q=80',
-  'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80',
-  'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&q=80',
-  'https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&q=80',
+  'https://picsum.photos/seed/art1/600/400',
+  'https://picsum.photos/seed/art2/600/400',
+  'https://picsum.photos/seed/art3/600/400',
+  'https://picsum.photos/seed/art4/600/400',
+  'https://picsum.photos/seed/art5/600/400',
+  'https://picsum.photos/seed/art6/600/400',
+  'https://picsum.photos/seed/art7/600/400',
+  'https://picsum.photos/seed/art8/600/400',
 ]
 
 let globalIndex = 0
