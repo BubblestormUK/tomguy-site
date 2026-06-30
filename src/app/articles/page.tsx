@@ -23,16 +23,16 @@ export default function ArticlesPage() {
           {years.map(year => (
             <div key={year} className="mb-10">
               <p style={{ fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: '#868686', marginBottom: '1.5rem' }}>{year}</p>
-              <div className="row gx-md-6 gy-6">
+              <div className="row gx-md-5 gy-5">
                 {byYear[year].map(article => (
-                  <div key={article.id} className="col-md-4 scale-up">
+                  <div key={article.id} className="col-md-3 scale-up">
                     <a
                       href={article.url || '#'}
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}
                     >
-                      <div style={{ aspectRatio: '1/1', borderRadius: '0.625rem', overflow: 'hidden', marginBottom: '1rem' }}>
+                      <div style={{ height: '180px', borderRadius: '0.625rem', overflow: 'hidden', marginBottom: '1rem' }}>
                         <img
                           src={(article as any).image || FALLBACK}
                           alt={article.title}
