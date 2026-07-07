@@ -41,7 +41,7 @@ export default function ArticlesPage() {
         <div className="container">
           <h1 className="mb-8 slide-left">Articles</h1>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem', alignItems: 'start' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
             {sorted.map((article, i) => {
               const img = (article as any).image || IMAGES[i % IMAGES.length]
               const tags: string[] = (article as any).tags || []
