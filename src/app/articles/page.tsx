@@ -13,7 +13,7 @@ const IMAGES = [
   'https://picsum.photos/seed/art8/600/400',
 ]
 
-const tag: React.CSSProperties = {
+const sourceTag: React.CSSProperties = {
   fontSize: '0.6rem',
   letterSpacing: '0.12em',
   textTransform: 'uppercase',
@@ -22,19 +22,18 @@ const tag: React.CSSProperties = {
   padding: '0.2rem 0.5rem',
   display: 'inline-block',
   marginRight: '0.4rem',
-  marginBottom: '0.6rem',
+}
+
+const hashTag: React.CSSProperties = {
+  fontSize: '0.6rem',
+  letterSpacing: '0.08em',
+  color: '#868686',
+  marginRight: '0.5rem',
+  display: 'inline-block',
 }
 
 export default function ArticlesPage() {
-  const byYear = articlesData.reduce((acc, a) => {
-    if (!acc[a.year]) acc[a.year] = []
-    acc[a.year].push(a)
-    return acc
-  }, {} as Record<number, typeof articlesData>)
-
-  const years = Object.keys(byYear).map(Number).sort((a, b) => b - a)
-
-  let idx = 0
+  const sorted = [...articlesData].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
   return (
     <>
@@ -42,37 +41,39 @@ export default function ArticlesPage() {
         <div className="container">
           <h1 className="mb-8 slide-left">Articles</h1>
 
-          {years.map(year => (
-            <div key={year} className="mb-6">
-              <p style={{ fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: '#868686', borderTop: '1px solid #e0e0e0', paddingTop: '0.5rem', marginBottom: '1rem' }}>{year}</p>
-
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.25rem', alignItems: 'start' }}>
-                {byYear[year].map(article => {
-                  const img = IMAGES[idx++ % IMAGES.length]
-                  return (
-                    <a key={article.id} href={article.url || '#'} target="_blank" rel="noopener noreferrer"
-                      style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}>
-                      <div style={{ width: '100%', height: '200px', borderRadius: '0.5rem', overflow: 'hidden', marginBottom: '1rem' }}>
-                        <img
-                          src={(article as any).image || img}
-                          alt={article.title}
-                          style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
-                        />
-                      </div>
-                      <div style={{ marginBottom: '0.5rem' }}>
-                        <span style={tag}>{article.source}</span>
-                      </div>
-                      <p style={{ fontSize: '0.7rem', color: '#868686', marginBottom: '0.4rem' }}>{article.date}</p>
-                      <p style={{ fontSize: '0.95rem', fontWeight: 400, lineHeight: 1.4, marginBottom: '0.5rem' }}>{article.title}</p>
-                      {article.excerpt && (
-                        <p style={{ fontSize: '0.78rem', color: '#868686', lineHeight: 1.5 }}>{article.excerpt}</p>
-                      )}
-                    </a>
-                  )
-                })}
-              </div>
-            </div>
-          ))}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem', alignItems: 'start' }}>
+            {sorted.map((article, i) => {
+              const img = (article as any).image || IMAGES[i % IMAGES.length]
+              const tags: string[] = (article as any).tags || []
+              return (
+                <a key={article.id} href={article.url || '#'} target="_blank" rel="noopener noreferrer"
+                  style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}>
+                  <div style={{ width: '100%', height: '200px', borderRadius: '0.5rem', overflow: 'hidden', marginBottom: '1rem' }}>
+                    <img
+                      src={img}
+                      alt={article.title}
+                      style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                    />
+                  </div>
+                  <div style={{ marginBottom: '0.4rem' }}>
+                    <span style={sourceTag}>{article.source}</span>
+                    <span style={{ fontSize: '0.7rem', color: '#868686' }}>{article.date}</span>
+                  </div>
+                  <p style={{ fontSize: '0.95rem', fontWeight: 400, lineHeight: 1.4, marginBottom: '0.5rem' }}>{article.title}</p>
+                  {article.excerpt && (
+                    <p style={{ fontSize: '0.78rem', color: '#868686', lineHeight: 1.5, marginBottom: '0.6rem' }}>{article.excerpt}</p>
+                  )}
+                  {tags.length > 0 && (
+                    <div style={{ marginTop: 'auto', paddingTop: '0.5rem' }}>
+                      {tags.map(t => (
+                        <span key={t} style={hashTag}>#{t}</span>
+                      ))}
+                    </div>
+                  )}
+                </a>
+              )
+            })}
+          </div>
         </div>
       </div>
       <Footer />
