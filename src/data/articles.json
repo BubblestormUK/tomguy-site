@@ -120,6 +120,78 @@
     "tags": ["Branding", "Strategy", "Mergers", "CustomerExperience"]
   },
   {
+    "id": "one-day-use-everything-learned-2025",
+    "title": "One Day, We Will Use Everything We Have Ever Learned",
+    "year": 2025,
+    "date": "2025-05-20",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/one-day-we-will-use-everything-we-have-ever-learned-tom-guy",
+    "image": "",
+    "excerpt": "Every failed idea. Every abandoned project. Every weird experiment that didn't go anywhere. It all accumulates.",
+    "body": "",
+    "tags": ["Leadership", "Innovation", "Learning", "PersonalDevelopment"]
+  },
+  {
+    "id": "shaping-innovation-narrative-media-2025",
+    "title": "Shaping Innovation Through Narrative - The Importance of Media",
+    "year": 2025,
+    "date": "2025-04-15",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/shaping-innovation-through-narrative-importance-media-tom-guy",
+    "image": "",
+    "excerpt": "Something I've learnt over 20 years of my career is that the media isn't just a platform for announcements; it's a partner in storytelling.",
+    "body": "",
+    "tags": ["Media", "Storytelling", "Innovation", "Leadership"]
+  },
+  {
+    "id": "playbook-building-startups-within-2025",
+    "title": "The Playbook: Building Startups from Within",
+    "year": 2025,
+    "date": "2025-04-01",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/playbook-building-startups-from-within-tom-guy",
+    "image": "",
+    "excerpt": "A decade of blending startups and corporates. My career has always been defined by a balance between two seemingly opposite worlds.",
+    "body": "",
+    "tags": ["Startups", "CorporateInnovation", "Leadership", "Intrapreneurship"]
+  },
+  {
+    "id": "building-etc-culture-innovation-2025",
+    "title": "Building Etc.: A Culture of Bold Innovation at BT Group",
+    "year": 2025,
+    "date": "2025-03-25",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/building-etc-culture-bold-innovation-bt-group-tom-guy",
+    "image": "",
+    "excerpt": "When we first set up Etc. as the incubation arm of BT Group in 2022, the goal wasn't just to build groundbreaking products. It was to create something different.",
+    "body": "",
+    "tags": ["BT", "Innovation", "Culture", "Startups"]
+  },
+  {
+    "id": "crisis-ask-person-adhd-2025",
+    "title": "When there's a crisis - ask the person with ADHD",
+    "year": 2025,
+    "date": "2025-03-20",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/when-theres-crisis-ask-person-adhd-tom-guy",
+    "image": "",
+    "excerpt": "I'm a bit of a walking paradox when it comes to how I operate. Day to day, my colleagues joke that I can be the work diva - but that all changes in a crisis.",
+    "body": "",
+    "tags": ["ADHD", "Leadership", "Crisis", "Neurodiversity"]
+  },
+  {
+    "id": "ai-automotive-legacy-2025",
+    "title": "From Legacy to Leading Edge: AI in Automotive",
+    "year": 2025,
+    "date": "2025-03-12",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/from-legacy-leading-edge-ai-automotive-tom-guy",
+    "image": "",
+    "excerpt": "This week I was lucky enough to join Elizabeth Dirgins from Volkswagen Financial Services, Nick Haywood from CI&T and Robert Tiderington at General Motors.",
+    "body": "",
+    "tags": ["AI", "Automotive", "Innovation", "Technology"]
+  },
+  {
     "id": "accelerating-action-iwd-2025",
     "title": "Accelerating Action: How the Growth of a Young Independent Woman Helped Me, a Middle-Aged Man, Tell My Story",
     "year": 2025,
@@ -156,6 +228,18 @@
     "tags": ["DataAnalytics", "AI", "BusinessTransformation", "Innovation"]
   },
   {
+    "id": "adhd-rsd-letters-2024",
+    "title": "ADHD, RSD... how many letters do they want?! Navigating ADHD and feedback this review season",
+    "year": 2024,
+    "date": "2024-11-15",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/adhd-rsd-how-many-letters-do-they-want-tom-guy",
+    "image": "",
+    "excerpt": "For as long as I can remember, I've faced a fear of negative feedback, rejection and ultimately failure. It's been an odd experience, particularly as someone in leadership.",
+    "body": "",
+    "tags": ["ADHD", "MentalHealth", "Leadership", "Neurodiversity"]
+  },
+  {
     "id": "get-over-yourself-adhd-2024",
     "title": "Get over yourself, it's just ADHD",
     "year": 2024,
@@ -180,6 +264,18 @@
     "tags": ["Innovation", "Startups", "BT", "CorporateInnovation"]
   },
   {
+    "id": "sxsw-2024-review",
+    "title": "SXSW 2024: my week in review",
+    "year": 2024,
+    "date": "2024-03-20",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/sxsw-2024-my-week-review-tom-guy",
+    "image": "",
+    "excerpt": "At this stage in my career, there's very few tech events that I don't know like the back of my hand. SXSW was different.",
+    "body": "",
+    "tags": ["SXSW", "Innovation", "Technology", "Events"]
+  },
+  {
     "id": "ces-2024-wrap-2024",
     "title": "From preventative health to drone soccer: my CES 2024 wrap",
     "year": 2024,
@@ -190,6 +286,18 @@
     "excerpt": "A roundup of the most interesting trends from CES 2024.",
     "body": "",
     "tags": ["CES2024", "HealthTech", "Drones", "Innovation"]
+  },
+  {
+    "id": "goodbye-2023-hello-ces-2024",
+    "title": "Out with the old and in with the new... goodbye to 2023 and hello to CES",
+    "year": 2024,
+    "date": "2024-01-03",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/out-old-new-goodbye-2023-hello-ces-tom-guy",
+    "image": "",
+    "excerpt": "The Christmas lights are being taken down. The turkey and nut roasts have been polished off, and the sound of New Year's fireworks has slowly faded.",
+    "body": "",
+    "tags": ["CES", "Innovation", "NewYear", "Technology"]
   },
   {
     "id": "ft-bt-ev-charging-2024",
@@ -240,6 +348,18 @@
     "tags": ["HealthTech", "Innovation", "NHS", "Digital"]
   },
   {
+    "id": "hardest-blog-mental-health-2023",
+    "title": "This is the hardest blog I've ever written. But probably the most important.",
+    "year": 2023,
+    "date": "2023-09-14",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/hardest-blog-ive-ever-written-probably-most-important-tom-guy",
+    "image": "",
+    "excerpt": "I'd never really paused to consider my mental health until well into my adult life. I found myself sitting in my car outside my office, paralysed and more exhausted than I've ever felt before.",
+    "body": "",
+    "tags": ["MentalHealth", "ADHD", "Leadership", "PersonalDevelopment"]
+  },
+  {
     "id": "startups-within-faith-2023",
     "title": "When it comes to building startups from within, you've got to have faith",
     "year": 2023,
@@ -250,6 +370,30 @@
     "excerpt": "Building startups within large corporations requires a particular kind of faith.",
     "body": "",
     "tags": ["Startups", "CorporateInnovation", "Leadership", "Intrapreneurship"]
+  },
+  {
+    "id": "12-months-etc-year-review-2023",
+    "title": "12 months of creating, amplifying and investing - my Etc. year in review",
+    "year": 2023,
+    "date": "2023-05-24",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/12-months-creating-amplifying-investing-etc-year-review-tom-guy",
+    "image": "",
+    "excerpt": "365 days since we officially launched Etc. - the startup incubation hub of BT Group. Here's what we built.",
+    "body": "",
+    "tags": ["BT", "Innovation", "Startups", "Etc"]
+  },
+  {
+    "id": "ces-love-affair-15-years-2024",
+    "title": "A look back at my love affair with CES - 15 years on...",
+    "year": 2024,
+    "date": "2024-01-08",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/look-back-love-affair-ces-15-years-tom-guy",
+    "image": "",
+    "excerpt": "Welcome to Las Vegas the sign reads. This city has been welcoming me with the same slot machine noises every January for many years.",
+    "body": "",
+    "tags": ["CES", "Innovation", "Technology", "Design"]
   },
   {
     "id": "guardian-drone-superhighway-2023",
@@ -324,6 +468,30 @@
     "tags": ["IoT", "Vodafone", "SmartHome", "Technology"]
   },
   {
+    "id": "introducing-etc-2022",
+    "title": "The other stuff... The undefined... Introducing Etc.",
+    "year": 2022,
+    "date": "2022-05-24",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/other-stuff-undefined-introducing-etc-tom-guy",
+    "image": "",
+    "excerpt": "This morning I was lucky enough to share the stage with some of the best and brightest at our yearly Digital Live conference, to reveal what my team have been up to.",
+    "body": "",
+    "tags": ["BT", "Innovation", "Startups", "Etc"]
+  },
+  {
+    "id": "i-want-to-be-in-product-2022",
+    "title": "I want to be in product when I grow up... said no one ever",
+    "year": 2022,
+    "date": "2022-01-15",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/i-want-be-product-when-grow-up-said-no-one-ever-tom-guy",
+    "image": "",
+    "excerpt": "Imagine a world when everyone in product trained to be in product, studied product and set out to be in product. Feels like a boring place?",
+    "body": "",
+    "tags": ["ProductManagement", "Leadership", "Career", "Design"]
+  },
+  {
     "id": "russian-pencil-design-2021",
     "title": "Looking for the secret to great design? Find the Russian Pencil",
     "year": 2021,
@@ -334,6 +502,54 @@
     "excerpt": "The Russian Pencil is one of the best kept secrets in product design thinking.",
     "body": "",
     "tags": ["Design", "ProductDesign", "Innovation", "Creativity"]
+  },
+  {
+    "id": "ces-great-design-2021",
+    "title": "What CES reminded me about great design",
+    "year": 2021,
+    "date": "2021-01-15",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/what-ces-reminded-me-about-great-design-tom-guy",
+    "image": "",
+    "excerpt": "As an event known as a stage for world firsts, CES faced its own this year as it closed its doors and was forced to turn virtual.",
+    "body": "",
+    "tags": ["CES", "Design", "Innovation", "Technology"]
+  },
+  {
+    "id": "why-build-products-categories-2020",
+    "title": "Why build products when you can drive categories?",
+    "year": 2020,
+    "date": "2020-12-11",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/why-build-products-when-you-can-drive-categories-tom-guy",
+    "image": "",
+    "excerpt": "A great product isn't just for Christmas. If done well, it should be able to create a magical moment for customers by finding an elegant, long-term solution to a practical challenge.",
+    "body": "",
+    "tags": ["ProductManagement", "Design", "Innovation", "Strategy"]
+  },
+  {
+    "id": "fly-a-kite-product-design-team-2020",
+    "title": "Let's go fly a kite: Building a world class product design team is simple - just follow Mary Poppins",
+    "year": 2020,
+    "date": "2020-11-25",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/lets-go-fly-kite-building-world-class-product-design-team-tom-guy",
+    "image": "",
+    "excerpt": "How do you create a world-class team that drives fantastic results whilst maintaining a strong sense of culture and belonging?",
+    "body": "",
+    "tags": ["Leadership", "TeamBuilding", "Design", "Culture"]
+  },
+  {
+    "id": "lessons-lockdown-launch-2020",
+    "title": "Lessons from a lockdown launch",
+    "year": 2020,
+    "date": "2020-06-15",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/pulse/lessons-lockdown-launch-tom-guy",
+    "image": "",
+    "excerpt": "We had been sprinting towards our first product in the Designed and Connected by Vodafone range of smart devices. Unlike some other tech players out there, we didn't delay.",
+    "body": "",
+    "tags": ["Vodafone", "ProductLaunch", "Innovation", "Lockdown"]
   },
   {
     "id": "dezeen-hive-view-ces-2018",
