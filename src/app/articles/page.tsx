@@ -1,5 +1,6 @@
 'use client'
 import Footer from '@/components/Footer'
+import ScrollReveal from '@/components/ScrollReveal'
 import articlesData from '@/data/articles.json'
 
 const IMAGES = [
@@ -37,6 +38,7 @@ export default function ArticlesPage() {
 
   return (
     <>
+      <ScrollReveal />
       <div className="site-content pt-5">
         <div className="container">
           <h1 className="mb-8 slide-left">Articles</h1>
@@ -46,7 +48,7 @@ export default function ArticlesPage() {
               const img = (article as any).image || IMAGES[i % IMAGES.length]
               const tags: string[] = (article as any).tags || []
               return (
-                <a key={article.id} href={article.url || '#'} target="_blank" rel="noopener noreferrer"
+                <a key={article.id} href={article.url || '#'} target="_blank" rel="noopener noreferrer" className="slide-up"
                   style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}>
                   <div style={{ width: '100%', height: '200px', borderRadius: '0.5rem', overflow: 'hidden', marginBottom: '1rem' }}>
                     <img

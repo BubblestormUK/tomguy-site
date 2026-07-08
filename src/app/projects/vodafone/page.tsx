@@ -1,4 +1,5 @@
 import Footer from '@/components/Footer'
+import ScrollReveal from '@/components/ScrollReveal'
 
 export const metadata = { title: 'Vodafone Smart Tech - Tom Guy' }
 const WP = 'https://www.tomguy.co/wp-content/uploads/2025/02'
@@ -52,36 +53,37 @@ const subProjects = [
 export default function VodafonePage() {
   return (
     <>
+      <ScrollReveal />
       <div className="site-content pt-5">
         <div className="container">
           <div className="row mb-6 mb-md-9">
             <div className="col-md-6">
-              <h1 className="mb-5 mb-md-6">Vodafone Smart Tech</h1>
+              <h1 className="mb-5 mb-md-6 slide-left">Vodafone Smart Tech</h1>
             </div>
             <div className="col-md-6">
-              <p className="top_summary">I was responsible for the launch of a number of pioneering products under Vodafone Smart Tech, Vodafone&apos;s consumer IoT business which created leading smart devices with the customer at the heart.</p>
+              <p className="top_summary slide-right">I was responsible for the launch of a number of pioneering products under Vodafone Smart Tech, Vodafone&apos;s consumer IoT business which created leading smart devices with the customer at the heart.</p>
             </div>
           </div>
-          <div className="portfolio_wrapper position-relative">
+          <div className="portfolio_wrapper position-relative scale-up">
             <img src={`${WP}/vodafone-image.jpg`} alt="Vodafone Smart Tech" className="image-fill top-0 border-radius" />
           </div>
           <div className="row mt-7 mt-md-10">
-            <div className="col-md-6 body_text_sm mb-4 mb-md-0">
+            <div className="col-md-6 body_text_sm mb-4 mb-md-0 slide-left">
               <p><span style={{fontWeight:400}}>Vodafone wanted to build on its connectivity platform, which up until 2020 had predominantly been created for enterprise, with a number of focused consumer IOT products. We wanted the products to be first party designed and owned, rather than a disparate collection of third party products that didn&apos;t function harmoniously.</span></p>
             </div>
-            <div className="col-md-6 body_text_sm">
+            <div className="col-md-6 body_text_sm slide-right">
               <p><span style={{fontWeight:400}}>To ensure we could build a proposition that truly resonated with consumers, we started to build out a &apos;Designed and Connected by Vodafone&apos; design language and ways of working to all first party hardware in Vodafone leading with the award winning Ultra Hub router - underpinning Vodafone broadband propositions.</span></p>
             </div>
           </div>
 
           {subProjects.map((p, i) => (
             <div key={i} className="row sub-project gx-md-8 mb-10 mb-md-0">
-              <div className="col-md-6">
+              <div className={`col-md-6 ${i % 2 === 0 ? 'slide-left' : 'slide-right'}`}>
                 <div className="portrait_wrapper position-relative">
                   <img src={p.image} alt={p.title} className="image-fill top-0 border-radius" />
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className={`col-md-6 ${i % 2 === 0 ? 'slide-right' : 'slide-left'}`}>
                 <h1 className="mb-5 mb-md-8 mt-5 mt-md-12">{p.title}</h1>
                 <p className="mb-5 mb-md-6">{p.summary}</p>
                 <div className="row">

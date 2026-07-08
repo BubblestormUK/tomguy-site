@@ -1,4 +1,5 @@
 import Footer from '@/components/Footer'
+import ScrollReveal from '@/components/ScrollReveal'
 
 export const metadata = { title: 'Hive - Tom Guy' }
 const WP1 = 'https://www.tomguy.co/wp-content/uploads/2025/01'
@@ -50,32 +51,32 @@ export default function HivePage() {
         <div className="container">
           <div className="row mb-6 mb-md-9">
             <div className="col-md-6">
-              <h1 className="mb-5 mb-md-6">Hive</h1>
+              <h1 className="mb-5 mb-md-6 slide-left">Hive</h1>
             </div>
             <div className="col-md-6">
-              <p className="top_summary">Hive brought the connected home to mass market in 2013 with the first ever smart thermostat, transforming home energy for millions of customers and simplifying the home heating experience.</p>
+              <p className="top_summary slide-right">Hive brought the connected home to mass market in 2013 with the first ever smart thermostat, transforming home energy for millions of customers and simplifying the home heating experience.</p>
             </div>
           </div>
-          <div className="portfolio_wrapper position-relative">
+          <div className="portfolio_wrapper position-relative scale-up">
             <img src={`${WP}/hive-image.jpg`} alt="Hive" className="image-fill top-0 border-radius" />
           </div>
           <div className="row mt-7 mt-md-10">
-            <div className="col-md-6 body_text_sm mb-4 mb-md-0">
+            <div className="col-md-6 body_text_sm mb-4 mb-md-0 slide-left">
               <p><span style={{fontWeight:400}}>I joined Hive in 2016 as Head of Product Design with a brief to professionalise the design function and elevate the quality of the product experience across the entire range. Hive had achieved significant scale in a short space of time, but the design team needed to evolve to meet the growing complexity of the product portfolio.</span></p>
             </div>
-            <div className="col-md-6 body_text_sm">
+            <div className="col-md-6 body_text_sm slide-right">
               <p><span style={{fontWeight:400}}>Working across hardware, software and service design, I built a world class design team capable of delivering beautifully crafted experiences that delighted customers and drove real business value. The result was a suite of products that consistently topped the charts in customer satisfaction and critical acclaim.</span></p>
             </div>
           </div>
 
           {subProjects.map((p, i) => (
             <div key={i} className="row sub-project gx-md-8 mb-10 mb-md-0">
-              <div className="col-md-6">
+              <div className={`col-md-6 ${i % 2 === 0 ? 'slide-left' : 'slide-right'}`}>
                 <div className="portrait_wrapper position-relative">
                   <img src={p.image} alt={p.title} className="image-fill top-0 border-radius" />
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className={`col-md-6 ${i % 2 === 0 ? 'slide-right' : 'slide-left'}`}>
                 <h1 className="mb-5 mb-md-8 mt-5 mt-md-12">{p.title}</h1>
                 <p className="mb-5 mb-md-6">{p.summary}</p>
                 <div className="row">

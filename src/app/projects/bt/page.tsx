@@ -1,4 +1,5 @@
 import Footer from '@/components/Footer'
+import ScrollReveal from '@/components/ScrollReveal'
 
 export const metadata = { title: 'Etc. at BT Group - Tom Guy' }
 const WP = 'https://www.tomguy.co/wp-content/uploads/2025/02'
@@ -50,36 +51,37 @@ const subProjects = [
 export default function BTPage() {
   return (
     <>
+      <ScrollReveal />
       <div className="site-content pt-5">
         <div className="container">
           <div className="row mb-6 mb-md-9">
             <div className="col-md-6">
-              <h1 className="mb-5 mb-md-6">Etc. at BT Group</h1>
+              <h1 className="mb-5 mb-md-6 slide-left">Etc. at BT Group</h1>
             </div>
             <div className="col-md-6">
-              <p className="top_summary">In 2022, I launched Etc. at BT Group, BT&apos;s incubation hub designed to build products and services in categories adjacent to the core, using all the most beautiful parts of the mothership.</p>
+              <p className="top_summary slide-right">In 2022, I launched Etc. at BT Group, BT&apos;s incubation hub designed to build products and services in categories adjacent to the core, using all the most beautiful parts of the mothership.</p>
             </div>
           </div>
-          <div className="portfolio_wrapper position-relative">
+          <div className="portfolio_wrapper position-relative scale-up">
             <img src={`${WP}/bt-image.jpg`} alt="Etc. at BT Group" className="image-fill top-0 border-radius" />
           </div>
           <div className="row mt-7 mt-md-10">
-            <div className="col-md-6 body_text_sm mb-4 mb-md-0">
+            <div className="col-md-6 body_text_sm mb-4 mb-md-0 slide-left">
               <p><span style={{fontWeight:400}}>BT wanted to create value from areas outside and adjacent to the core, but wanted to test each new space at speed, quickly identifying where we should invest our time. This wasn&apos;t about an innovation funnel or hundreds of ideas, but instead looking at a few macro economic and customer relevant problem statements to create a small number of categories that we could drive real value from for the group.</span></p>
             </div>
-            <div className="col-md-6 body_text_sm">
+            <div className="col-md-6 body_text_sm slide-right">
               <p><span style={{fontWeight:400}}>Key to success on hitting this brief was a startup from within approach, building a team with a startup mentality driven by agile thinking, zero to one principles, a disruptive mindset, whilst also exploring how to reimagine existing BT assets to solve the customer problem in new ways.</span></p>
             </div>
           </div>
 
           {subProjects.map((p, i) => (
             <div key={i} className="row sub-project gx-md-8 mb-10 mb-md-0">
-              <div className="col-md-6">
+              <div className={`col-md-6 ${i % 2 === 0 ? 'slide-left' : 'slide-right'}`}>
                 <div className="portrait_wrapper position-relative">
                   <img src={p.image} alt={p.title} className="image-fill top-0 border-radius" />
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className={`col-md-6 ${i % 2 === 0 ? 'slide-right' : 'slide-left'}`}>
                 <h1 className="mb-5 mb-md-8 mt-5 mt-md-12">{p.title}</h1>
                 <p className="mb-5 mb-md-6">{p.summary}</p>
                 <div className="row">
