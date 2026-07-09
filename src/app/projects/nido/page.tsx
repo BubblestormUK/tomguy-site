@@ -3,33 +3,13 @@ import ScrollReveal from '@/components/ScrollReveal'
 
 export const metadata = { title: 'Nido / Livensa Living - Tom Guy' }
 
-const NIDO = 'https://www.livensaliving.com/wp-content/uploads'
-const NIDO2 = 'https://www.nido.es/wp-content/uploads'
-
-const mosaic: React.CSSProperties = {
-  display: 'grid',
-  gridTemplateColumns: '1fr 1.6fr 1fr',
-  gridTemplateRows: '1fr 1fr 1fr',
-  gap: '6px',
-  height: '520px',
-  borderRadius: '0.5rem',
-  overflow: 'hidden',
-}
-
-const cell = (extra?: React.CSSProperties): React.CSSProperties => ({
-  overflow: 'hidden',
-  position: 'relative',
-  ...extra,
-})
-
-const img: React.CSSProperties = {
-  width: '100%',
-  height: '100%',
-  objectFit: 'cover',
-  display: 'block',
-}
-
 export default function NidoPage() {
+  const imgStyle: React.CSSProperties = { width: '100%', height: '100%', objectFit: 'cover', display: 'block' }
+  const cell: React.CSSProperties = { overflow: 'hidden', position: 'relative' }
+  const dark: React.CSSProperties = { background: '#111', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '1.5rem', textAlign: 'center' }
+  const label: React.CSSProperties = { fontFamily: 'Helvetica Neue, Arial, sans-serif', fontSize: '0.6rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#666', marginBottom: '0.75rem' }
+  const title: React.CSSProperties = { fontSize: '1rem', fontWeight: 300, color: '#fff', lineHeight: 1.3 }
+
   return (
     <>
       <ScrollReveal />
@@ -40,39 +20,43 @@ export default function NidoPage() {
               <h1 className="mb-5 mb-md-6 slide-left">Nido / Livensa Living</h1>
             </div>
             <div className="col-md-6">
-              <p className="top_summary slide-right">Nido and Livensa Living are premium purpose-built student accommodation and young professional living brands across Europe. I lead the product and digital experience vision to create a platform where residents don&apos;t just live - they thrive.</p>
+              <p className="top_summary slide-right">Nido and Livensa Living are premium purpose-built student accommodation and young professional living brands across Europe. Leading the product and digital experience vision to create a platform where residents don&apos;t just live - they thrive.</p>
             </div>
           </div>
 
-          {/* Mosaic banner */}
-          <div style={mosaic} className="scale-up mb-7 mb-md-10">
-            {/* Col 1 - top */}
-            <div style={cell()}>
-              <img src={`${NIDO}/2022/10/Salon-Apartamento-Livensa-Living-Studios-Madrid-Alcobendas.jpg`} alt="Livensa studio apartment" style={img} />
+          <div className="scale-up" style={{
+            display: 'grid',
+            gridTemplateColumns: '1fr 1.6fr 1fr',
+            gridTemplateRows: '1fr 1fr 1fr',
+            gap: '6px',
+            height: '520px',
+            borderRadius: '0.5rem',
+            overflow: 'hidden',
+            marginBottom: '3rem',
+          }}>
+            <div style={cell}>
+              <img src="/Nido/Zzdtk68jQArT07FI_Nido-Principe-Pio-Building-1R9A0966.jpg.avif" alt="Nido building" style={imgStyle} />
             </div>
-            {/* Col 2 - spans all 3 rows */}
-            <div style={cell({ gridRow: '1 / 4' })}>
-              <img src={`${NIDO}/2022/03/Piscina.jpg`} alt="Livensa pool" style={img} />
+            <div style={{ ...cell, gridRow: '1 / 4' }}>
+              <img src="/Nido/Piscina-Residencia-de-Estudiantes-Livensa-Living-Sevilla.jpg" alt="Livensa pool" style={imgStyle} />
             </div>
-            {/* Col 3 - top */}
-            <div style={cell()}>
-              <img src={`${NIDO}/2022/10/gimnasio-residencia-de-estudiantes-livensa-living-marques-de-pombal.jpg`} alt="Livensa gym" style={img} />
+            <div style={{ ...cell, ...dark }}>
+              <p style={label}>Resident App</p>
+              <p style={title}>Digital home for 30,000+ residents across Europe</p>
             </div>
-            {/* Col 1 - mid */}
-            <div style={cell()}>
-              <img src={`${NIDO}/2022/03/Piscina-Porto-Boavista.jpg`} alt="Livensa Porto pool" style={img} />
+            <div style={cell}>
+              <img src="/Nido/Zz4KmK8jQArT1FdB_ES-Classic-Studio-Nido-Principe-Pio-1.jpg.avif" alt="Nido studio" style={imgStyle} />
             </div>
-            {/* Col 3 - mid */}
-            <div style={cell()}>
-              <img src={`${NIDO}/2022/10/Biblioteca-Livensa-Living-Malaga-Feria-1.jpg`} alt="Livensa library" style={img} />
+            <div style={{ ...cell, ...dark }}>
+              <p style={label}>Data Platform</p>
+              <p style={title}>Real-time property and resident intelligence at scale</p>
             </div>
-            {/* Col 1 - bottom */}
-            <div style={cell()}>
-              <img src={`${NIDO}/2022/03/Terraza-Sevilla.jpg`} alt="Livensa terrace" style={img} />
+            <div style={cell}>
+              <img src="/Nido/room-single-gr-cartuja.jpg" alt="Nido room" style={imgStyle} />
             </div>
-            {/* Col 3 - bottom */}
-            <div style={cell()}>
-              <img src={`${NIDO}/2022/10/zona-juegos-living-bilbao.jpg`} alt="Livensa social space" style={img} />
+            <div style={{ ...cell, ...dark }}>
+              <p style={label}>Web Experience</p>
+              <p style={title}>Unified booking and living platform across two brands</p>
             </div>
           </div>
 
