@@ -62,8 +62,14 @@ export default function BTPage() {
               <p className="top_summary slide-right">In 2022, I launched Etc. at BT Group, BT&apos;s incubation hub designed to build products and services in categories adjacent to the core, using all the most beautiful parts of the mothership.</p>
             </div>
           </div>
-          <div className="portfolio_wrapper position-relative scale-up">
-            <img src={`${WP}/bt-image.jpg`} alt="Etc. at BT Group" className="image-fill top-0 border-radius" />
+          <div className="scale-up" style={{ display: 'grid', gridTemplateColumns: '1fr 1.6fr 1fr', gridTemplateRows: '1fr 1fr 1fr', gap: '6px', height: '520px', borderRadius: '0.5rem', overflow: 'hidden', marginBottom: '3rem' }}>
+            <div style={{ overflow: 'hidden' }}><img src={`${WP}/drones-one-stop-shop.jpg`} alt="Drones" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
+            <div style={{ overflow: 'hidden', gridRow: '1 / 4' }}><img src={`${WP}/bt-image.jpg`} alt="Etc. at BT Group" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
+            <div style={{ overflow: 'hidden' }}><img src={`${WP}/healthy-you.jpg`} alt="Healthy You" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
+            <div style={{ overflow: 'hidden' }}><img src={`${WP}/ev-charge.jpg`} alt="EV Connect" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
+            <div style={{ overflow: 'hidden' }}><img src={`${WP}/Etc.-tap-to-PayProject-Image_Portrait-scaled.jpg`} alt="Etc. Pay" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
+            <div style={{ overflow: 'hidden' }}><img src={`${WP}/BT-Tap-top-Pay-Project-Image_Portrait-scaled.jpg`} alt="Tap to Pay" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
+            <div style={{ overflow: 'hidden' }}><img src={`${WP}/BT-Project-Images_Portrait-1-scaled.jpg`} alt="Active Intelligence" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
           </div>
           <div className="row mt-7 mt-md-10">
             <div className="col-md-6 body_text_sm mb-4 mb-md-0 slide-left">

@@ -64,8 +64,14 @@ export default function VodafonePage() {
               <p className="top_summary slide-right">I was responsible for the launch of a number of pioneering products under Vodafone Smart Tech, Vodafone&apos;s consumer IoT business which created leading smart devices with the customer at the heart.</p>
             </div>
           </div>
-          <div className="portfolio_wrapper position-relative scale-up">
-            <img src={`${WP}/vodafone-image.jpg`} alt="Vodafone Smart Tech" className="image-fill top-0 border-radius" />
+          <div className="scale-up" style={{ display: 'grid', gridTemplateColumns: '1fr 1.6fr 1fr', gridTemplateRows: '1fr 1fr 1fr', gap: '6px', height: '520px', borderRadius: '0.5rem', overflow: 'hidden', marginBottom: '3rem' }}>
+            <div style={{ overflow: 'hidden' }}><img src={`${WP1}/neo-watch.jpg`} alt="Neo Watch" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
+            <div style={{ overflow: 'hidden', gridRow: '1 / 4' }}><img src={`${WP}/vodafone-image.jpg`} alt="Vodafone Smart Tech" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
+            <div style={{ overflow: 'hidden' }}><img src={`${WP1}/light-and-tracker.jpg`} alt="Curve Bike Light" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
+            <div style={{ overflow: 'hidden' }}><img src={`${WP1}/gps-tracker.jpg`} alt="Curve GPS Tracker" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
+            <div style={{ overflow: 'hidden' }}><img src={`${WP1}/smart-tech-app.jpg`} alt="Smart Tech App" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
+            <div style={{ overflow: 'hidden' }}><img src={`${WP1}/pet-tracker.jpg`} alt="Curve Pet Tracker" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
+            <div style={{ overflow: 'hidden' }}><img src={`${WP1}/ultra-hub-family.jpg`} alt="Ultra Hub" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
           </div>
           <div className="row mt-7 mt-md-10">
             <div className="col-md-6 body_text_sm mb-4 mb-md-0 slide-left">

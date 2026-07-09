@@ -57,8 +57,14 @@ export default function HivePage() {
               <p className="top_summary slide-right">Hive brought the connected home to mass market in 2013 with the first ever smart thermostat, transforming home energy for millions of customers and simplifying the home heating experience.</p>
             </div>
           </div>
-          <div className="portfolio_wrapper position-relative scale-up">
-            <img src={`${WP}/hive-image.jpg`} alt="Hive" className="image-fill top-0 border-radius" />
+          <div className="scale-up" style={{ display: 'grid', gridTemplateColumns: '1fr 1.6fr 1fr', gridTemplateRows: '1fr 1fr 1fr', gap: '6px', height: '520px', borderRadius: '0.5rem', overflow: 'hidden', marginBottom: '3rem' }}>
+            <div style={{ overflow: 'hidden' }}><img src={`${WP1}/hive-thermostat.jpg`} alt="Active Heating" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
+            <div style={{ overflow: 'hidden', gridRow: '1 / 4' }}><img src={`${WP}/hive-image.jpg`} alt="Hive" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
+            <div style={{ overflow: 'hidden' }}><img src={`${WP1}/hive-camera.jpg`} alt="Active Cameras" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
+            <div style={{ overflow: 'hidden' }}><img src={`${WP1}/hive-sensors.jpg`} alt="Sensors" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
+            <div style={{ overflow: 'hidden' }}><img src={`${WP1}/hive-app.jpg`} alt="Hive App" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
+            <div style={{ overflow: 'hidden' }}><img src={`${WP3}/Hive-Project-Images_Portrait6-scaled.jpg`} alt="Diagnostics" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
+            <div style={{ overflow: 'hidden' }}><img src={`${WP1}/hive-thermostat.jpg`} alt="Hive range" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /></div>
           </div>
           <div className="row mt-7 mt-md-10">
             <div className="col-md-6 body_text_sm mb-4 mb-md-0 slide-left">
