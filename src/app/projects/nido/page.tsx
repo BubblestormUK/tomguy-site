@@ -6,31 +6,31 @@ export const metadata = { title: 'Nido / Livensa Living - Tom Guy' }
 const subProjects = [
   {
     image: '/Nido/Zz4KmK8jQArT1FdB_ES-Classic-Studio-Nido-Principe-Pio-1.jpg.avif',
-    title: 'Digital Transformation',
-    summary: 'Two distinct brands, two separate tech stacks, no shared data platform and a low-touch digital resident journey. Digital transformation was the highest-impact opportunity and the most complex to get right.',
-    col1: 'The business had grown through M&A, bringing Nido and Livensa Living together under a single PE-backed ownership structure with an intensely commercial board. The pressure to drive value at pace was real, but the foundations needed to be right first.',
-    col2: 'The starting point was a clear-eyed assessment of where the biggest leverage was. Disparate property management systems, no unified resident identity, and a fragmented in-life experience created the mandate for a ground-up digital rethink.',
+    title: 'The Problem to Solve',
+    summary: 'Two brands, two separate tech stacks, no shared data platform and a low-touch digital in-life resident journey. The business had grown through M&A, bringing Nido and Livensa Living together under CPP Investments PE-backed ownership with an intensely commercial board focused on value creation at pace.',
+    col1: 'The starting point was understanding where the biggest leverage was. Disparate property management systems, no unified resident identity and a fragmented in-life experience pointed to digital transformation as the highest-impact opportunity.',
+    col2: 'The mandate was clear: build the digital and technology foundation that would let the business scale across student, flex and hotel accommodation, across Spain, Portugal and Italy, without fragmenting the customer experience.',
   },
   {
     image: '/Nido/PTC-templates-2025-06-20T121934.173.png',
-    title: 'Tech Stack',
-    summary: 'Building a unified technology foundation across two brands and three markets required bringing together property management, resident identity, payments and communication into a coherent, scalable platform.',
-    col1: 'We mapped the existing systems landscape, rationalised the core stack and defined the integration architecture needed to connect property operations with resident-facing digital products. The data layer was central: aggregating property, booking and resident data to enable real-time intelligence at scale.',
-    col2: 'A modern cloud-native approach replaced legacy point solutions, enabling the product and engineering teams to ship faster and the business to make better decisions with cleaner, more reliable data.',
+    title: 'Platform & Data',
+    summary: 'Delivering the full platform stack required bringing together a unified data warehouse, web platform with property management and booking, and a resident app managing the in-stay experience.',
+    col1: 'The data layer was central. We aggregated property, booking and resident data into a unified warehouse, giving the business real-time intelligence across the portfolio for the first time. Clean data enabled better decisions at every level, from board reporting to day-to-day property operations.',
+    col2: 'A modern cloud-native architecture replaced legacy point solutions, enabling the product and engineering teams to ship faster, integrate more reliably and give the business the flexibility to adapt as the portfolio grows.',
   },
   {
     image: '/Nido/Piscina-Residencia-de-Estudiantes-Livensa-Living-Sevilla.jpg',
-    title: 'Resident App & Web Experience',
-    summary: 'The resident-facing digital experience spanned a unified booking and enquiry platform across both brands, and a resident app serving 30,000+ students and young professionals across Spain, Portugal and Italy.',
-    col1: 'The web experience was redesigned to create a coherent brand journey from discovery through to booking, handling the complexity of two brands, multiple markets and multiple property types without fragmenting the user experience.',
-    col2: 'The resident app became the digital home for every resident: booking services, raising maintenance requests, managing their stay and staying connected with their community. Designed for simplicity, built to scale across the full estate.',
+    title: 'Resident App & Web',
+    summary: 'The resident-facing digital experience spanned a unified booking and enquiry web platform across both brands, and a resident app serving 30,000+ students and young professionals across Spain, Portugal and Italy.',
+    col1: 'The web platform was rebuilt to handle the complexity of two distinct brands, multiple markets and multiple property types, creating a coherent journey from discovery through to booking without fragmenting the experience.',
+    col2: 'The resident app became the digital home for every resident: booking amenities, raising maintenance requests, managing their stay and staying connected with their community. Designed for simplicity, built to scale.',
   },
   {
     image: '/Nido/cocinas-residencia-de-estudiantes-Livensa-Living-Malaga.jpg',
     title: 'Livensa Labs',
-    summary: 'Livensa Labs was set up as an innovation function to identify and develop opportunities outside the core business, exploring where technology could create step-change value across the portfolio.',
-    col1: 'Three initial focus areas were defined: AI-powered workflows and information sharing to reduce operational overhead and surface insights faster; a marketing and campaign management tool to give local property teams the ability to run targeted campaigns without central dependency; and asset investment intelligence to help the board make better-informed capital allocation decisions.',
-    col2: 'Labs operated with a startup-within mentality, running fast experiments to validate ideas before committing to full builds. The goal was to prove what was possible and create a pipeline of innovation that could be scaled across the business.',
+    summary: 'Livensa Labs was established as an innovation function to rapidly prototype and validate AI-powered concepts across the business, identifying opportunities outside the core that could create step-change value across the portfolio.',
+    col1: 'Three initial focus areas were defined: AI-powered workflows and information sharing to surface insights faster and reduce operational overhead; a campaign management tool to give local property teams the ability to run targeted marketing without central dependency; and asset investment intelligence to support board-level capital allocation decisions.',
+    col2: 'Labs operated with a startup-within mentality, running fast experiments to prove what was possible before committing to full builds. The model was designed to create a sustainable pipeline of innovation that could be scaled across the business over time.',
   },
 ]
 
@@ -51,7 +51,7 @@ export default function NidoPage() {
               <h1 className="mb-5 mb-md-6 slide-left">Nido / Livensa Living</h1>
             </div>
             <div className="col-md-6">
-              <p className="top_summary slide-right">Nido and Livensa Living are premium purpose-built student accommodation and young professional living brands operating across 30+ properties in Spain, Portugal and Italy. I joined to lead the product, digital and technology vision across both brands.</p>
+              <p className="top_summary slide-right">Nido and Livensa Living are CPP Investments PE-backed accommodation brands operating across student, flex and hotel properties in Spain, Portugal and Italy. I joined as Chief Digital Officer to lead end-to-end digital transformation across product, data and technology.</p>
             </div>
           </div>
 
@@ -87,16 +87,16 @@ export default function NidoPage() {
             </div>
             <div style={{ ...cell, ...dark }}>
               <p style={label}>Livensa Labs</p>
-              <p style={title}>Innovation function exploring AI, data and new product opportunities</p>
+              <p style={title}>AI-powered innovation lab prototyping the next generation of tools</p>
             </div>
           </div>
 
           <div className="row mt-7 mt-md-10">
             <div className="col-md-6 body_text_sm mb-4 mb-md-0 slide-left">
-              <p><span style={{fontWeight:400}}>The business had come together through M&A, with Nido and Livensa Living operating as separate brands under a single PE-backed ownership structure. A commercially driven board and ambitious growth targets created both the pressure and the permission to move fast. The challenge was knowing where to start.</span></p>
+              <p><span style={{fontWeight:400}}>Nido and Livensa Living came together through M&A under a focused CPP Investments PE board with clear value creation targets. The two brands had grown independently, each with their own systems, processes and digital touchpoints. The pressure to drive value at pace was real, but the foundations needed to be right first.</span></p>
             </div>
             <div className="col-md-6 body_text_sm slide-right">
-              <p><span style={{fontWeight:400}}>Digital transformation was the answer. Two disparate tech stacks, no true data platform, limited AI capability and a low-touch digital in-life resident journey represented the biggest opportunity to create real, lasting value for residents and the business alike.</span></p>
+              <p><span style={{fontWeight:400}}>I was brought in to identify where digital could have the biggest impact and build it. The answer was transformation across the full stack: unifying two disparate technology platforms, building a true data foundation, and creating a high-quality digital journey that residents would actually use and value.</span></p>
             </div>
           </div>
 
