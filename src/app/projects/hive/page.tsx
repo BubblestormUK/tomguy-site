@@ -2,9 +2,9 @@ import Footer from '@/components/Footer'
 import ScrollReveal from '@/components/ScrollReveal'
 
 export const metadata = { title: 'Hive - Tom Guy' }
-const WP1 = 'https://www.tomguy.co/wp-content/uploads/2025/01'
-const WP3 = 'https://www.tomguy.co/wp-content/uploads/2025/03'
-const WP = 'https://www.tomguy.co/wp-content/uploads/2025/02'
+const WP1 = '/Hive'
+const WP3 = '/Hive'
+const WP = '/Hive'
 
 const subProjects = [
   {

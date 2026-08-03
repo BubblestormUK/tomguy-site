@@ -2,8 +2,8 @@ import Footer from '@/components/Footer'
 import ScrollReveal from '@/components/ScrollReveal'
 
 export const metadata = { title: 'Etc. at BT Group - Tom Guy' }
-const WP = 'https://www.tomguy.co/wp-content/uploads/2025/02'
-const WP1 = 'https://www.tomguy.co/wp-content/uploads/2025/01'
+const WP = '/BT'
+const WP1 = '/BT'
 
 const subProjects = [
   {
