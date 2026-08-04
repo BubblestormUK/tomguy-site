@@ -38,17 +38,17 @@ export default function ArticlesPage() {
               const tags: string[] = (article as any).tags || []
               return (
                 <a key={article.id} href={article.url || '#'} target="_blank" rel="noopener noreferrer" className="slide-up"
-                  style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ width: '100%', height: '200px', borderRadius: '0.5rem', overflow: 'hidden', marginBottom: '1rem', background: '#111' }}>
-                    {img ? (
+                  style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', borderBottom: '1px solid #222', paddingBottom: '1.5rem' }}>
+                  {img && (
+                    <div style={{ width: '100%', height: '200px', borderRadius: '0.5rem', overflow: 'hidden', marginBottom: '1rem' }}>
                       <img
                         src={img}
                         alt={article.title}
                         style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                       />
-                    ) : null}
-                  </div>
-                  <div style={{ marginBottom: '0.4rem' }}>
+                    </div>
+                  )}
+                  <div style={{ marginBottom: '0.4rem', marginTop: img ? 0 : '0.5rem' }}>
                     <span style={sourceTag}>{article.source}</span>
                     <span style={{ fontSize: '0.7rem', color: '#868686' }}>{article.date}</span>
                   </div>
