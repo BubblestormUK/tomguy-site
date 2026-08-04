@@ -6,10 +6,15 @@
     "date": "2026-04-06",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/why-healthtech-still-feels-like-unfinished-business-tom-guy-wurie",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQFtYnpJ7g7q1A/article-cover_image-shrink_720_1280/B4EZ1iThMoGYAI-/0/1775470784461?e=2147483647&v=beta&t=a4M1P9NxWbrjICPZqhRIPNexsjqz5E-ZxUztktOxWPg",
     "excerpt": "Building in health tech was actually a really hard experience. It was really hard to move fast in an industry that has so much regulation and so much bureaucracy.",
     "body": "",
-    "tags": ["HealthTech", "Innovation", "Leadership", "Startups"]
+    "tags": [
+      "HealthTech",
+      "Innovation",
+      "Leadership",
+      "Startups"
+    ]
   },
   {
     "id": "first-solve-problem-2026",
@@ -18,10 +23,15 @@
     "date": "2026-03-30",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/first-solve-problem-front-you-narrative-have-created-tom-guy-bzzle",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQHiyDL7vZvWFQ/article-cover_image-shrink_720_1280/B4EZ0552SrGkAI-/0/1774792962981?e=2147483647&v=beta&t=uVHoibNGE7kXGBAfGb1HuhGL-c09w4EEeIr2_PqeGgA",
     "excerpt": "There is something some of us do, especially certain types of brains, where we are facing a challenge and we quietly create another one in our head.",
     "body": "",
-    "tags": ["ADHD", "Leadership", "MentalHealth", "Productivity"]
+    "tags": [
+      "ADHD",
+      "Leadership",
+      "MentalHealth",
+      "Productivity"
+    ]
   },
   {
     "id": "squads-pods-tribes-2026",
@@ -30,10 +40,15 @@
     "date": "2026-03-23",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/squads-pods-tribes-clusters-bean-bags-tom-guy-ikoqe",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQHAb-HBpvTEQg/article-cover_image-shrink_720_1280/B4EZ0MIEEZGwAI-/0/1774024938499?e=2147483647&v=beta&t=rEAh5qyG0nPeDBaZTC62MgXXJGwq9TX8MLVaV0tDe18",
     "excerpt": "Cross-functional teams, a clear outcome to own, autonomy to build and iterate without waiting for the committee.",
     "body": "",
-    "tags": ["Leadership", "ProductManagement", "TeamBuilding", "Innovation"]
+    "tags": [
+      "Leadership",
+      "ProductManagement",
+      "TeamBuilding",
+      "Innovation"
+    ]
   },
   {
     "id": "four-burners-life-2026",
@@ -42,10 +57,15 @@
     "date": "2026-03-09",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/four-burners-life-tom-guy-ivrme",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQFFEPnvnHNutg/article-cover_image-shrink_720_1280/B4EZzNUVYZH0AI-/0/1772971193199?e=2147483647&v=beta&t=SJJhPnlHpJ9O30HBiVEYLZ_HSXWXnSEyfabCiwSfGrY",
     "excerpt": "A simple idea that raises an uncomfortable question about how we live. The Four Burner Theory and what it means for the choices we make.",
     "body": "",
-    "tags": ["WorkLifeBalance", "Leadership", "MentalHealth", "PersonalDevelopment"]
+    "tags": [
+      "WorkLifeBalance",
+      "Leadership",
+      "MentalHealth",
+      "PersonalDevelopment"
+    ]
   },
   {
     "id": "quietly-exceptional-2026",
@@ -54,10 +74,15 @@
     "date": "2026-03-06",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/quietly-exceptional-tom-guy-cxmce",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQFF3_tC5ayMAg/article-cover_image-shrink_720_1280/B4EZzC1k5ZGoAI-/0/1772795351732?e=2147483647&v=beta&t=VGPQKR1IcjVtObAYiNRfYx06v0yVEqWGSHOFBtfrQOo",
     "excerpt": "Over the years I have written posts about people who have shaped the teams and companies I have been lucky enough to build.",
     "body": "",
-    "tags": ["Leadership", "TeamBuilding", "Culture", "People"]
+    "tags": [
+      "Leadership",
+      "TeamBuilding",
+      "Culture",
+      "People"
+    ]
   },
   {
     "id": "genai-product-engineering-2026",
@@ -66,10 +91,15 @@
     "date": "2026-02-09",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/genai-wont-kill-product-engineering-teams-expose-who-matters-tom-guy-p0oke",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQHd3M0FO85AKA/article-cover_image-shrink_720_1280/B4EZw9cWIrJAAI-/0/1770557368269?e=2147483647&v=beta&t=eEHKviEy2Z2EpDSg9va-BM5IKSCw0BFi4NIFzGqMXYA",
     "excerpt": "There is a growing confidence that generative AI will largely eliminate product and engineering teams. Code can be written faster.",
     "body": "",
-    "tags": ["GenAI", "AI", "ProductManagement", "Engineering"]
+    "tags": [
+      "GenAI",
+      "AI",
+      "ProductManagement",
+      "Engineering"
+    ]
   },
   {
     "id": "every-day-hard-felt-better-2025",
@@ -78,10 +108,15 @@
     "date": "2025-08-15",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/every-day-hard-i-felt-better-tom-guy-xqrfe",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQFaWPIDyofHxA/article-cover_image-shrink_720_1280/B4EZitrZXQHEAI-/0/1755260496543?e=2147483647&v=beta&t=37p5EjtuWjNqY0aDDUpQo5RE1_Hgk4a-nr3X-CH6rWM",
     "excerpt": "You notice it first in your head, not your legs. That shift in mood.",
     "body": "",
-    "tags": ["MentalHealth", "ADHD", "PersonalDevelopment", "Wellbeing"]
+    "tags": [
+      "MentalHealth",
+      "ADHD",
+      "PersonalDevelopment",
+      "Wellbeing"
+    ]
   },
   {
     "id": "pens-pencils-genai-2025",
@@ -90,10 +125,15 @@
     "date": "2025-06-29",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/pens-pencils-calculators-knives-genai-story-tom-guy-mzeqe",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQGLBpH8I_JtXQ/article-cover_image-shrink_720_1280/B4EZextgw5HsAM-/0/1751033189111?e=2147483647&v=beta&t=01JLPN6HfyUdcGfcdf8WBOuKd4mmGmUTyeOa1OKlGvo",
     "excerpt": "Over the last few years I have been lucky enough to get closer to AI than ever before. Watching my team build Active Intel inside Etc.",
     "body": "",
-    "tags": ["GenAI", "AI", "Innovation", "Technology"]
+    "tags": [
+      "GenAI",
+      "AI",
+      "Innovation",
+      "Technology"
+    ]
   },
   {
     "id": "power-storytelling-2025",
@@ -102,10 +142,15 @@
     "date": "2025-06-13",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/power-storytelling-products-people-culture-tom-guy-bfhse",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQHU83M93C-TAQ/article-cover_image-shrink_720_1280/B4EZdV8POaHgAM-/0/1749493546002?e=2147483647&v=beta&t=B9aadZLMgFpnJiIjm2ghVtJLEKnMvA4EmuDJSAwCcwE",
     "excerpt": "Storytelling has been at the heart of everything I have done throughout my career. Whether building products, shaping design processes, or leading teams.",
     "body": "",
-    "tags": ["Storytelling", "Leadership", "ProductManagement", "Culture"]
+    "tags": [
+      "Storytelling",
+      "Leadership",
+      "ProductManagement",
+      "Culture"
+    ]
   },
   {
     "id": "mergers-multiple-brands-2025",
@@ -114,10 +159,15 @@
     "date": "2025-06-03",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/when-mergers-keep-multiple-brands-do-we-serve-customer-tom-guy-nlwge",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQGm0G2LNQOMvw/article-cover_image-shrink_720_1280/B4EZc1emo5H0AI-/0/1748948905207?e=2147483647&v=beta&t=G-r1gIU8frOu0frBhiNmupIWDWAps8mbT4kxZHGI1-M",
     "excerpt": "You have to protect what is unique about a brand. But you also have to know when combining makes it stronger.",
     "body": "",
-    "tags": ["Branding", "Strategy", "Mergers", "CustomerExperience"]
+    "tags": [
+      "Branding",
+      "Strategy",
+      "Mergers",
+      "CustomerExperience"
+    ]
   },
   {
     "id": "one-day-use-everything-learned-2025",
@@ -126,10 +176,15 @@
     "date": "2025-05-20",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/one-day-we-will-use-everything-we-have-ever-learned-tom-guy",
-    "image": "",
+    "image": "https://static.licdn.com/aero-v1/sc/h/en3f1pk3qk4cxtj2j4fff0gtr",
     "excerpt": "Every failed idea. Every abandoned project. Every weird experiment that didn't go anywhere. It all accumulates.",
     "body": "",
-    "tags": ["Leadership", "Innovation", "Learning", "PersonalDevelopment"]
+    "tags": [
+      "Leadership",
+      "Innovation",
+      "Learning",
+      "PersonalDevelopment"
+    ]
   },
   {
     "id": "shaping-innovation-narrative-media-2025",
@@ -138,10 +193,15 @@
     "date": "2025-04-15",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/shaping-innovation-through-narrative-importance-media-tom-guy",
-    "image": "",
+    "image": "https://static.licdn.com/aero-v1/sc/h/en3f1pk3qk4cxtj2j4fff0gtr",
     "excerpt": "Something I've learnt over 20 years of my career is that the media isn't just a platform for announcements; it's a partner in storytelling.",
     "body": "",
-    "tags": ["Media", "Storytelling", "Innovation", "Leadership"]
+    "tags": [
+      "Media",
+      "Storytelling",
+      "Innovation",
+      "Leadership"
+    ]
   },
   {
     "id": "playbook-building-startups-within-2025",
@@ -150,10 +210,15 @@
     "date": "2025-04-01",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/playbook-building-startups-from-within-tom-guy",
-    "image": "",
+    "image": "https://static.licdn.com/aero-v1/sc/h/en3f1pk3qk4cxtj2j4fff0gtr",
     "excerpt": "A decade of blending startups and corporates. My career has always been defined by a balance between two seemingly opposite worlds.",
     "body": "",
-    "tags": ["Startups", "CorporateInnovation", "Leadership", "Intrapreneurship"]
+    "tags": [
+      "Startups",
+      "CorporateInnovation",
+      "Leadership",
+      "Intrapreneurship"
+    ]
   },
   {
     "id": "building-etc-culture-innovation-2025",
@@ -162,10 +227,15 @@
     "date": "2025-03-25",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/building-etc-culture-bold-innovation-bt-group-tom-guy",
-    "image": "",
+    "image": "https://static.licdn.com/aero-v1/sc/h/en3f1pk3qk4cxtj2j4fff0gtr",
     "excerpt": "When we first set up Etc. as the incubation arm of BT Group in 2022, the goal wasn't just to build groundbreaking products. It was to create something different.",
     "body": "",
-    "tags": ["BT", "Innovation", "Culture", "Startups"]
+    "tags": [
+      "BT",
+      "Innovation",
+      "Culture",
+      "Startups"
+    ]
   },
   {
     "id": "crisis-ask-person-adhd-2025",
@@ -174,10 +244,15 @@
     "date": "2025-03-20",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/when-theres-crisis-ask-person-adhd-tom-guy",
-    "image": "",
+    "image": "https://static.licdn.com/aero-v1/sc/h/en3f1pk3qk4cxtj2j4fff0gtr",
     "excerpt": "I'm a bit of a walking paradox when it comes to how I operate. Day to day, my colleagues joke that I can be the work diva - but that all changes in a crisis.",
     "body": "",
-    "tags": ["ADHD", "Leadership", "Crisis", "Neurodiversity"]
+    "tags": [
+      "ADHD",
+      "Leadership",
+      "Crisis",
+      "Neurodiversity"
+    ]
   },
   {
     "id": "ai-automotive-legacy-2025",
@@ -189,7 +264,12 @@
     "image": "",
     "excerpt": "This week I was lucky enough to join Elizabeth Dirgins from Volkswagen Financial Services, Nick Haywood from CI&T and Robert Tiderington at General Motors.",
     "body": "",
-    "tags": ["AI", "Automotive", "Innovation", "Technology"]
+    "tags": [
+      "AI",
+      "Automotive",
+      "Innovation",
+      "Technology"
+    ]
   },
   {
     "id": "accelerating-action-iwd-2025",
@@ -198,10 +278,15 @@
     "date": "2025-03-07",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/accelerating-action-how-growth-young-independent-woman-tom-guy-9sjzc",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D5612AQFHKKfy6TVzHg/article-cover_image-shrink_720_1280/B56ZVcl62gGUAI-/0/1741015199751",
     "excerpt": "International Women's Day is a moment to celebrate progress, recognize talent, and commit to driving real change.",
     "body": "",
-    "tags": ["IWD", "Leadership", "Diversity", "Inclusion"]
+    "tags": [
+      "IWD",
+      "Leadership",
+      "Diversity",
+      "Inclusion"
+    ]
   },
   {
     "id": "adhd-crusades-2025",
@@ -210,10 +295,15 @@
     "date": "2025-03-15",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/you-feel-have-go-crusades-can-very-lonely-place-navigating-tom-guy-p1ufe/",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQGtZTztm5pQbA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1738150822548",
     "excerpt": "Navigating ADHD and a sense of justice in a corporate world that isn't always ready for it.",
     "body": "",
-    "tags": ["ADHD", "Leadership", "MentalHealth", "Innovation"]
+    "tags": [
+      "ADHD",
+      "Leadership",
+      "MentalHealth",
+      "Innovation"
+    ]
   },
   {
     "id": "25-billion-data-points-2025",
@@ -222,10 +312,15 @@
     "date": "2025-01-20",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/how-25-billion-daily-data-points-can-transform-business-tom-guy-wwbde/",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQETV40giTHW8g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1736110624507?e=2147483647&v=beta&t=Kk2QFr-QNXPuJf4ToQGjR5LexG3j6O3jsUBKiUjrQog",
     "excerpt": "How 25 billion data points can transform businesses and unlock new possibilities.",
     "body": "",
-    "tags": ["DataAnalytics", "AI", "BusinessTransformation", "Innovation"]
+    "tags": [
+      "DataAnalytics",
+      "AI",
+      "BusinessTransformation",
+      "Innovation"
+    ]
   },
   {
     "id": "adhd-rsd-letters-2024",
@@ -237,7 +332,12 @@
     "image": "",
     "excerpt": "For as long as I can remember, I've faced a fear of negative feedback, rejection and ultimately failure. It's been an odd experience, particularly as someone in leadership.",
     "body": "",
-    "tags": ["ADHD", "MentalHealth", "Leadership", "Neurodiversity"]
+    "tags": [
+      "ADHD",
+      "MentalHealth",
+      "Leadership",
+      "Neurodiversity"
+    ]
   },
   {
     "id": "get-over-yourself-adhd-2024",
@@ -246,10 +346,15 @@
     "date": "2024-09-10",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/get-over-yourself-its-just-adhd-tom-guy-nrjoe/",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQFEoLqgvdepgw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1727949627074",
     "excerpt": "A candid take on living and working with ADHD.",
     "body": "",
-    "tags": ["ADHD", "MentalHealth", "Leadership", "Neurodiversity"]
+    "tags": [
+      "ADHD",
+      "MentalHealth",
+      "Leadership",
+      "Neurodiversity"
+    ]
   },
   {
     "id": "etc-at-two-2024",
@@ -258,10 +363,15 @@
     "date": "2024-06-01",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/etc-three-from-vegas-east-lothian-everywhere-between-tom-guy-nseje/",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQEHVXhvlRMeGg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1719907754066",
     "excerpt": "Reflecting on two years building BT's innovation hub.",
     "body": "",
-    "tags": ["Innovation", "Startups", "BT", "CorporateInnovation"]
+    "tags": [
+      "Innovation",
+      "Startups",
+      "BT",
+      "CorporateInnovation"
+    ]
   },
   {
     "id": "sxsw-2024-review",
@@ -273,7 +383,12 @@
     "image": "",
     "excerpt": "At this stage in my career, there's very few tech events that I don't know like the back of my hand. SXSW was different.",
     "body": "",
-    "tags": ["SXSW", "Innovation", "Technology", "Events"]
+    "tags": [
+      "SXSW",
+      "Innovation",
+      "Technology",
+      "Events"
+    ]
   },
   {
     "id": "ces-2024-wrap-2024",
@@ -282,10 +397,15 @@
     "date": "2024-01-20",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/from-preventative-healthtech-drone-soccer-my-ces-2024-tom-guy-noh5e/",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQHyi3RZ3dAEkQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1705673448648",
     "excerpt": "A roundup of the most interesting trends from CES 2024.",
     "body": "",
-    "tags": ["CES2024", "HealthTech", "Drones", "Innovation"]
+    "tags": [
+      "CES2024",
+      "HealthTech",
+      "Drones",
+      "Innovation"
+    ]
   },
   {
     "id": "goodbye-2023-hello-ces-2024",
@@ -297,7 +417,12 @@
     "image": "",
     "excerpt": "The Christmas lights are being taken down. The turkey and nut roasts have been polished off, and the sound of New Year's fireworks has slowly faded.",
     "body": "",
-    "tags": ["CES", "Innovation", "NewYear", "Technology"]
+    "tags": [
+      "CES",
+      "Innovation",
+      "NewYear",
+      "Technology"
+    ]
   },
   {
     "id": "ft-bt-ev-charging-2024",
@@ -309,7 +434,12 @@
     "image": "",
     "excerpt": "BT repurposes its first street cabinet as an electric vehicle charging station.",
     "body": "",
-    "tags": ["EV", "Sustainability", "BT", "Infrastructure"]
+    "tags": [
+      "EV",
+      "Sustainability",
+      "BT",
+      "Infrastructure"
+    ]
   },
   {
     "id": "sky-news-bt-green-cabinet-2024",
@@ -321,7 +451,12 @@
     "image": "",
     "excerpt": "Tom Guy discusses BT's first green cabinet charge install on Sky News.",
     "body": "",
-    "tags": ["EVCharging", "BT", "Sustainability", "SkyNews"]
+    "tags": [
+      "EVCharging",
+      "BT",
+      "Sustainability",
+      "SkyNews"
+    ]
   },
   {
     "id": "bbc-ces-trends-2024",
@@ -333,7 +468,12 @@
     "image": "",
     "excerpt": "Tom Guy discusses CES 2024 trends on BBC Radio 4's You and Yours.",
     "body": "",
-    "tags": ["CES2024", "Tech", "BBC", "Innovation"]
+    "tags": [
+      "CES2024",
+      "Tech",
+      "BBC",
+      "Innovation"
+    ]
   },
   {
     "id": "healthcare-crisis-tech-2023",
@@ -342,10 +482,15 @@
     "date": "2023-08-14",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/can-tech-answer-tackling-healthcare-crisis-tom-guy/",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQEwMpSfDiLYIw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1672777205299",
     "excerpt": "Exploring how technology can address the growing healthcare crisis.",
     "body": "",
-    "tags": ["HealthTech", "Innovation", "NHS", "Digital"]
+    "tags": [
+      "HealthTech",
+      "Innovation",
+      "NHS",
+      "Digital"
+    ]
   },
   {
     "id": "hardest-blog-mental-health-2023",
@@ -354,10 +499,15 @@
     "date": "2023-09-14",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/hardest-blog-ive-ever-written-probably-most-important-tom-guy",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQFnl7h_QNtuWg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1672259203590",
     "excerpt": "I'd never really paused to consider my mental health until well into my adult life. I found myself sitting in my car outside my office, paralysed and more exhausted than I've ever felt before.",
     "body": "",
-    "tags": ["MentalHealth", "ADHD", "Leadership", "PersonalDevelopment"]
+    "tags": [
+      "MentalHealth",
+      "ADHD",
+      "Leadership",
+      "PersonalDevelopment"
+    ]
   },
   {
     "id": "startups-within-faith-2023",
@@ -366,10 +516,15 @@
     "date": "2023-05-03",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/when-comes-building-startups-from-within-youve-got-have-tom-guy-pp52e/",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQGXHt0TBqrFhw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1668693897376",
     "excerpt": "Building startups within large corporations requires a particular kind of faith.",
     "body": "",
-    "tags": ["Startups", "CorporateInnovation", "Leadership", "Intrapreneurship"]
+    "tags": [
+      "Startups",
+      "CorporateInnovation",
+      "Leadership",
+      "Intrapreneurship"
+    ]
   },
   {
     "id": "12-months-etc-year-review-2023",
@@ -381,7 +536,12 @@
     "image": "",
     "excerpt": "365 days since we officially launched Etc. - the startup incubation hub of BT Group. Here's what we built.",
     "body": "",
-    "tags": ["BT", "Innovation", "Startups", "Etc"]
+    "tags": [
+      "BT",
+      "Innovation",
+      "Startups",
+      "Etc"
+    ]
   },
   {
     "id": "ces-love-affair-15-years-2024",
@@ -393,7 +553,12 @@
     "image": "",
     "excerpt": "Welcome to Las Vegas the sign reads. This city has been welcoming me with the same slot machine noises every January for many years.",
     "body": "",
-    "tags": ["CES", "Innovation", "Technology", "Design"]
+    "tags": [
+      "CES",
+      "Innovation",
+      "Technology",
+      "Design"
+    ]
   },
   {
     "id": "guardian-drone-superhighway-2023",
@@ -405,7 +570,12 @@
     "image": "",
     "excerpt": "BT invests £5m in building a drone superhighway across southern England.",
     "body": "",
-    "tags": ["Drones", "BT", "Aviation", "Infrastructure"]
+    "tags": [
+      "Drones",
+      "BT",
+      "Aviation",
+      "Infrastructure"
+    ]
   },
   {
     "id": "iot-tech-news-drone-2023",
@@ -414,10 +584,15 @@
     "date": "2023-02-28",
     "source": "IoT Tech News",
     "url": "https://iottechnews.com/news/bt-powers-a-uk-first-medical-drone-trial/",
-    "image": "",
+    "image": "https://iottechnews.com/wp-content/uploads/2023/04/bt-skyfarer-medical-logistics-uk-drones-etc-highway-trials-healthcare-delivery-iot-internet-of-things.jpg",
     "excerpt": "BT powers the UK's first medical drone trial.",
     "body": "",
-    "tags": ["Drones", "HealthTech", "IoT", "BT"]
+    "tags": [
+      "Drones",
+      "HealthTech",
+      "IoT",
+      "BT"
+    ]
   },
   {
     "id": "dear-corporates-startup-2022",
@@ -426,10 +601,15 @@
     "date": "2022-09-20",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/dear-corporates-its-time-more-startup-tom-guy/",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQFiXcILoPkDfQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1665663632776",
     "excerpt": "Large companies need to think and act more like startups to stay relevant.",
     "body": "",
-    "tags": ["Startups", "Innovation", "Corporate", "Leadership"]
+    "tags": [
+      "Startups",
+      "Innovation",
+      "Corporate",
+      "Leadership"
+    ]
   },
   {
     "id": "drones-unlocking-skies-2022",
@@ -438,10 +618,15 @@
     "date": "2022-06-10",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/unlocking-skies-drones-isnt-rocket-science-tom-guy/",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQHF-PG2tARNOw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1658314176504",
     "excerpt": "What it actually takes to open UK airspace for commercial drone operations.",
     "body": "",
-    "tags": ["Drones", "Aviation", "Regulation", "Innovation"]
+    "tags": [
+      "Drones",
+      "Aviation",
+      "Regulation",
+      "Innovation"
+    ]
   },
   {
     "id": "sifted-bt-beyond-telecoms-2022",
@@ -450,10 +635,15 @@
     "date": "2022-04-05",
     "source": "Sifted",
     "url": "https://sifted.eu/articles/bt-moving-beyond-telecoms-health",
-    "image": "",
+    "image": "https://images.sifted.eu/wp-content/uploads/2022/02/22084634/BT-One-Abraham-office.jpg",
     "excerpt": "Sifted explores how BT is moving beyond its telecoms roots.",
     "body": "",
-    "tags": ["BT", "HealthTech", "Innovation", "Telecoms"]
+    "tags": [
+      "BT",
+      "HealthTech",
+      "Innovation",
+      "Telecoms"
+    ]
   },
   {
     "id": "wallpaper-vodafone-iot-2022",
@@ -462,10 +652,15 @@
     "date": "2022-02-18",
     "source": "Wallpaper",
     "url": "https://www.wallpaper.com/technology/vodafone-smart-tech-interview-tom-guy",
-    "image": "",
+    "image": "https://cdn.mos.cms.futurecdn.net/j2hRpFxmRgqzih2zqgfxca-1920-80.jpg",
     "excerpt": "Tom Guy discusses Vodafone Smart Tech and the future of IoT with Wallpaper magazine.",
     "body": "",
-    "tags": ["IoT", "Vodafone", "SmartHome", "Technology"]
+    "tags": [
+      "IoT",
+      "Vodafone",
+      "SmartHome",
+      "Technology"
+    ]
   },
   {
     "id": "introducing-etc-2022",
@@ -474,10 +669,15 @@
     "date": "2022-05-24",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/other-stuff-undefined-introducing-etc-tom-guy",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/C4E12AQEUeivHv1k7Tg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1653401377011",
     "excerpt": "This morning I was lucky enough to share the stage with some of the best and brightest at our yearly Digital Live conference, to reveal what my team have been up to.",
     "body": "",
-    "tags": ["BT", "Innovation", "Startups", "Etc"]
+    "tags": [
+      "BT",
+      "Innovation",
+      "Startups",
+      "Etc"
+    ]
   },
   {
     "id": "i-want-to-be-in-product-2022",
@@ -489,7 +689,12 @@
     "image": "",
     "excerpt": "Imagine a world when everyone in product trained to be in product, studied product and set out to be in product. Feels like a boring place?",
     "body": "",
-    "tags": ["ProductManagement", "Leadership", "Career", "Design"]
+    "tags": [
+      "ProductManagement",
+      "Leadership",
+      "Career",
+      "Design"
+    ]
   },
   {
     "id": "russian-pencil-design-2021",
@@ -498,10 +703,15 @@
     "date": "2021-11-08",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/looking-secret-great-design-find-russian-pencil-tom-guy/",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/C4D12AQEf4kNYS7r-qA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1617695512539",
     "excerpt": "The Russian Pencil is one of the best kept secrets in product design thinking.",
     "body": "",
-    "tags": ["Design", "ProductDesign", "Innovation", "Creativity"]
+    "tags": [
+      "Design",
+      "ProductDesign",
+      "Innovation",
+      "Creativity"
+    ]
   },
   {
     "id": "ces-great-design-2021",
@@ -513,7 +723,12 @@
     "image": "",
     "excerpt": "As an event known as a stage for world firsts, CES faced its own this year as it closed its doors and was forced to turn virtual.",
     "body": "",
-    "tags": ["CES", "Design", "Innovation", "Technology"]
+    "tags": [
+      "CES",
+      "Design",
+      "Innovation",
+      "Technology"
+    ]
   },
   {
     "id": "why-build-products-categories-2020",
@@ -522,10 +737,15 @@
     "date": "2020-12-11",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/why-build-products-when-you-can-drive-categories-tom-guy",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/C4D12AQFIdbu1I3AlhA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1607673938060",
     "excerpt": "A great product isn't just for Christmas. If done well, it should be able to create a magical moment for customers by finding an elegant, long-term solution to a practical challenge.",
     "body": "",
-    "tags": ["ProductManagement", "Design", "Innovation", "Strategy"]
+    "tags": [
+      "ProductManagement",
+      "Design",
+      "Innovation",
+      "Strategy"
+    ]
   },
   {
     "id": "fly-a-kite-product-design-team-2020",
@@ -534,10 +754,15 @@
     "date": "2020-11-25",
     "source": "LinkedIn",
     "url": "https://www.linkedin.com/pulse/lets-go-fly-kite-building-world-class-product-design-team-tom-guy",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/C4D12AQF1Uy377aJaIw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1606292644109",
     "excerpt": "How do you create a world-class team that drives fantastic results whilst maintaining a strong sense of culture and belonging?",
     "body": "",
-    "tags": ["Leadership", "TeamBuilding", "Design", "Culture"]
+    "tags": [
+      "Leadership",
+      "TeamBuilding",
+      "Design",
+      "Culture"
+    ]
   },
   {
     "id": "lessons-lockdown-launch-2020",
@@ -549,7 +774,12 @@
     "image": "",
     "excerpt": "We had been sprinting towards our first product in the Designed and Connected by Vodafone range of smart devices. Unlike some other tech players out there, we didn't delay.",
     "body": "",
-    "tags": ["Vodafone", "ProductLaunch", "Innovation", "Lockdown"]
+    "tags": [
+      "Vodafone",
+      "ProductLaunch",
+      "Innovation",
+      "Lockdown"
+    ]
   },
   {
     "id": "dezeen-hive-view-ces-2018",
@@ -561,6 +791,11 @@
     "image": "",
     "excerpt": "Designer Yves Behar debuts the Hive View home security camera at CES 2018.",
     "body": "",
-    "tags": ["Design", "SmartHome", "CES", "Hive"]
+    "tags": [
+      "Design",
+      "SmartHome",
+      "CES",
+      "Hive"
+    ]
   }
 ]
