@@ -3,17 +3,6 @@ import Footer from '@/components/Footer'
 import ScrollReveal from '@/components/ScrollReveal'
 import articlesData from '@/data/articles.json'
 
-const IMAGES = [
-  'https://picsum.photos/seed/art1/600/400',
-  'https://picsum.photos/seed/art2/600/400',
-  'https://picsum.photos/seed/art3/600/400',
-  'https://picsum.photos/seed/art4/600/400',
-  'https://picsum.photos/seed/art5/600/400',
-  'https://picsum.photos/seed/art6/600/400',
-  'https://picsum.photos/seed/art7/600/400',
-  'https://picsum.photos/seed/art8/600/400',
-]
-
 const sourceTag: React.CSSProperties = {
   fontSize: '0.6rem',
   letterSpacing: '0.12em',
@@ -45,17 +34,19 @@ export default function ArticlesPage() {
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
             {sorted.map((article, i) => {
-              const img = (article as any).image || IMAGES[i % IMAGES.length]
+              const img = (article as any).image || ''
               const tags: string[] = (article as any).tags || []
               return (
                 <a key={article.id} href={article.url || '#'} target="_blank" rel="noopener noreferrer" className="slide-up"
                   style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ width: '100%', height: '200px', borderRadius: '0.5rem', overflow: 'hidden', marginBottom: '1rem' }}>
-                    <img
-                      src={img}
-                      alt={article.title}
-                      style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
-                    />
+                  <div style={{ width: '100%', height: '200px', borderRadius: '0.5rem', overflow: 'hidden', marginBottom: '1rem', background: '#111' }}>
+                    {img ? (
+                      <img
+                        src={img}
+                        alt={article.title}
+                        style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                      />
+                    ) : null}
                   </div>
                   <div style={{ marginBottom: '0.4rem' }}>
                     <span style={sourceTag}>{article.source}</span>
