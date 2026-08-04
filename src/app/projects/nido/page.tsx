@@ -101,7 +101,7 @@ export default function NidoPage() {
           </div>
 
           {subProjects.map((p, i) => (
-            <div key={i} className="row sub-project gx-md-8 mb-10 mb-md-0">
+            <div key={i} className={`row sub-project gx-md-8 mb-10 mb-md-0${i === 0 ? ' mt-7 mt-md-10' : ''}`}>
               <div className={`col-md-6 ${i % 2 === 0 ? 'slide-left' : 'slide-right'}`}>
                 <div className="portrait_wrapper position-relative">
                   <img src={p.image} alt={p.title} className="image-fill top-0 border-radius" />
