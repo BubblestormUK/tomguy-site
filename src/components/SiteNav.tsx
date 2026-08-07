@@ -35,7 +35,7 @@ export default function SiteNav() {
         renderer: 'svg',
         loop: false,
         autoplay: true,
-        path: 'https://www.tomguy.co/wp-content/uploads/2025/02/GRAP0022_BUBBLESTORM_LogoAnimation_WEB_V001-1.json',
+        path: '/logo-animation.json',
         rendererSettings: { preserveAspectRatio: 'xMidYMid slice' },
       })
     })
