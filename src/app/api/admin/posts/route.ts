@@ -1,23 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { isAuthenticated } from '@/lib/auth'
-import { readFileSync, writeFileSync } from 'fs'
-import { join } from 'path'
-
-const DATA_PATH = join(process.cwd(), 'src/data/articles.json')
-
-function readArticles() {
-  return JSON.parse(readFileSync(DATA_PATH, 'utf-8'))
-}
-
-function writeArticles(data: unknown[]) {
-  writeFileSync(DATA_PATH, JSON.stringify(data, null, 2))
-}
+import { getArticles, saveArticles } from '@/lib/articles-store'
 
 export async function GET() {
   if (!(await isAuthenticated())) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
-  return NextResponse.json(readArticles())
+  return NextResponse.json(await getArticles())
 }
 
 export async function POST(req: NextRequest) {
@@ -25,7 +14,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
   const body = await req.json()
-  const articles = readArticles()
+  const articles = await getArticles()
   const slug = body.title
     .toLowerCase()
     .replace(/[^a-z0-9\s]/g, '')
@@ -39,11 +28,17 @@ export async function POST(req: NextRequest) {
     date: body.date,
     source: body.source || 'Blog',
     url: body.url || '',
+    image: body.image || '',
     excerpt: body.excerpt || '',
     body: body.body || '',
+    tags: body.tags || [],
   }
   articles.unshift(newArticle)
-  writeArticles(articles)
+  try {
+    await saveArticles(articles)
+  } catch {
+    return NextResponse.json({ error: 'Storage not configured — set up Vercel KV' }, { status: 503 })
+  }
   return NextResponse.json(newArticle, { status: 201 })
 }
 
@@ -52,11 +47,15 @@ export async function PUT(req: NextRequest) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
   const body = await req.json()
-  const articles = readArticles()
+  const articles = await getArticles()
   const idx = articles.findIndex((a: { id: string }) => a.id === body.id)
   if (idx === -1) return NextResponse.json({ error: 'Not found' }, { status: 404 })
   articles[idx] = { ...articles[idx], ...body }
-  writeArticles(articles)
+  try {
+    await saveArticles(articles)
+  } catch {
+    return NextResponse.json({ error: 'Storage not configured — set up Vercel KV' }, { status: 503 })
+  }
   return NextResponse.json(articles[idx])
 }
 
@@ -65,8 +64,12 @@ export async function DELETE(req: NextRequest) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
   const { id } = await req.json()
-  const articles = readArticles()
+  const articles = await getArticles()
   const filtered = articles.filter((a: { id: string }) => a.id !== id)
-  writeArticles(filtered)
+  try {
+    await saveArticles(filtered)
+  } catch {
+    return NextResponse.json({ error: 'Storage not configured — set up Vercel KV' }, { status: 503 })
+  }
   return NextResponse.json({ ok: true })
 }

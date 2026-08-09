@@ -9,9 +9,10 @@ type Article = {
   date: string
   source: string
   url: string
-  image: string
-  excerpt: string
-  body: string
+  image?: string
+  excerpt?: string
+  body?: string
+  tags?: string[]
 }
 
 const empty: Omit<Article, 'id' | 'year'> = {
