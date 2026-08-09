@@ -1,9 +1,7 @@
 import { readFileSync } from 'fs'
 import { join } from 'path'
 
-const KV_KEY = 'articles'
-
-type Article = {
+export type Article = {
   id: string
   title: string
   year: number
@@ -21,27 +19,42 @@ function localArticles(): Article[] {
   return JSON.parse(readFileSync(path, 'utf-8'))
 }
 
-async function kv() {
-  if (!process.env.KV_REST_API_URL || !process.env.KV_REST_API_TOKEN) return null
-  const { kv } = await import('@vercel/kv')
-  return kv
+function supabaseClient() {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+  if (!url || !key) return null
+  const { createClient } = require('@supabase/supabase-js')
+  return createClient(url, key)
 }
 
 export async function getArticles(): Promise<Article[]> {
-  const store = await kv()
-  if (store) {
-    const data = await store.get<Article[]>(KV_KEY)
-    if (data && data.length > 0) return data
-    // KV is empty — seed it from the JSON file and return
-    const seed = localArticles()
-    await store.set(KV_KEY, seed)
-    return seed
+  const sb = supabaseClient()
+  if (sb) {
+    const { data, error } = await sb.from('articles').select('*').order('date', { ascending: false })
+    if (!error && data && data.length > 0) return data
+    // Table empty or doesn't exist yet — fall through to local
   }
   return localArticles()
 }
 
 export async function saveArticles(articles: Article[]): Promise<void> {
-  const store = await kv()
-  if (!store) throw new Error('KV_NOT_CONFIGURED')
-  await store.set(KV_KEY, articles)
+  const sb = supabaseClient()
+  if (!sb) throw new Error('SUPABASE_NOT_CONFIGURED')
+  // Upsert all articles
+  const { error } = await sb.from('articles').upsert(articles, { onConflict: 'id' })
+  if (error) throw error
+}
+
+export async function upsertArticle(article: Article): Promise<void> {
+  const sb = supabaseClient()
+  if (!sb) throw new Error('SUPABASE_NOT_CONFIGURED')
+  const { error } = await sb.from('articles').upsert(article, { onConflict: 'id' })
+  if (error) throw error
+}
+
+export async function deleteArticle(id: string): Promise<void> {
+  const sb = supabaseClient()
+  if (!sb) throw new Error('SUPABASE_NOT_CONFIGURED')
+  const { error } = await sb.from('articles').delete().eq('id', id)
+  if (error) throw error
 }
