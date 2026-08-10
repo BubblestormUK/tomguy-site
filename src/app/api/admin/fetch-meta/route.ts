@@ -21,19 +21,34 @@ export async function POST(req: NextRequest) {
   const source = detectSource(url)
   const today = new Date().toISOString().slice(0, 10)
 
-  // For LinkedIn we can't fetch the title — return what we know
-  if (url.includes('linkedin.com')) {
-    return NextResponse.json({ source, date: today, title: '', excerpt: '' })
+  // Try multiple user agents — LinkedIn pulse articles are often publicly accessible
+  const userAgents = url.includes('linkedin.com')
+    ? [
+        'LinkedInBot/1.0 (compatible; Mozilla/5.0; Apache-HttpClient +http://www.linkedin.com)',
+        'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+        'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)',
+      ]
+    : ['Mozilla/5.0 (compatible; Googlebot/2.1)']
+
+  let html = ''
+  for (const ua of userAgents) {
+    try {
+      const res = await fetch(url, {
+        headers: { 'User-Agent': ua, 'Accept-Language': 'en-GB,en;q=0.9' },
+        signal: AbortSignal.timeout(6000),
+        redirect: 'follow',
+      })
+      const text = await res.text()
+      // LinkedIn redirects to authwall — skip if that happened
+      if (text.includes('authwall') || text.includes('linkedin.com/login')) continue
+      html = text
+      break
+    } catch {
+      continue
+    }
   }
 
-  try {
-    const res = await fetch(url, {
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; Googlebot/2.1)' },
-      signal: AbortSignal.timeout(5000),
-    })
-    const html = await res.text()
-
-    const title =
+  const title =
       html.match(/<meta property="og:title" content="([^"]+)"/)?.[1] ||
       html.match(/<meta name="twitter:title" content="([^"]+)"/)?.[1] ||
       html.match(/<title>([^<]+)<\/title>/)?.[1] || ''
@@ -52,8 +67,5 @@ export async function POST(req: NextRequest) {
 
     const date = dateStr ? dateStr.slice(0, 10) : today
 
-    return NextResponse.json({ title: title.trim(), excerpt: excerpt.trim(), image: image.trim(), source, date })
-  } catch {
-    return NextResponse.json({ source, date: today, title: '', excerpt: '' })
-  }
+  return NextResponse.json({ title: title.trim(), excerpt: excerpt.trim(), image: image.trim(), source, date })
 }
