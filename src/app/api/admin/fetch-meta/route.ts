@@ -57,9 +57,11 @@ export async function POST(req: NextRequest) {
       html.match(/<meta property="og:description" content="([^"]+)"/)?.[1] ||
       html.match(/<meta name="description" content="([^"]+)"/)?.[1] || ''
 
-    const image =
+    const rawImage =
       html.match(/<meta property="og:image" content="([^"]+)"/)?.[1] ||
       html.match(/<meta name="twitter:image" content="([^"]+)"/)?.[1] || ''
+  // Only use image if it's a real CDN URL, not a LinkedIn tracking/redirect URL
+  const image = rawImage.includes('media.licdn.com') || !url.includes('linkedin.com') ? rawImage : ''
 
     const dateStr =
       html.match(/<meta property="article:published_time" content="([^"]+)"/)?.[1] ||

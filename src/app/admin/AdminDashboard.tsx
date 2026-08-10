@@ -248,8 +248,15 @@ export default function AdminDashboard({ initialArticles }: { initialArticles: A
               </div>
             )}
             <div>
-              <label style={labelStyle}>Image URL (auto-filled for non-LinkedIn)</label>
-              <input style={inputStyle} value={form.image} onChange={e => setForm(f => ({ ...f, image: e.target.value }))} placeholder="https://... or paste your own image URL" />
+              <label style={labelStyle}>
+                Image URL
+                {form.url?.includes('linkedin.com') && (
+                  <span style={{ marginLeft: '0.5rem', fontWeight: 400, textTransform: 'none', letterSpacing: 0 }}>
+                    — on LinkedIn, right-click the article cover photo and choose <strong>Copy image address</strong>, then paste below
+                  </span>
+                )}
+              </label>
+              <input style={inputStyle} value={form.image || ''} onChange={e => setForm(f => ({ ...f, image: e.target.value }))} placeholder="https://media.licdn.com/..." />
             </div>
             <div>
               <label style={labelStyle}>Title *</label>
