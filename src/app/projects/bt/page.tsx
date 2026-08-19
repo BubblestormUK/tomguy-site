@@ -1,5 +1,5 @@
 import Footer from '@/components/Footer'
-import ScrollReveal from '@/components/ScrollReveal'
+
 
 export const metadata = { title: 'Etc. at BT Group - Tom Guy' }
 const WP = '/BT'
@@ -51,7 +51,7 @@ const subProjects = [
 export default function BTPage() {
   return (
     <>
-      <ScrollReveal />
+
       <div className="site-content pt-5">
         <div className="container">
           <div className="row mb-6 mb-md-9">

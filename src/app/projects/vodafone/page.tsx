@@ -1,5 +1,5 @@
 import Footer from '@/components/Footer'
-import ScrollReveal from '@/components/ScrollReveal'
+
 
 export const metadata = { title: 'Vodafone Smart Tech - Tom Guy' }
 const WP = '/Vodafone'
@@ -53,7 +53,7 @@ const subProjects = [
 export default function VodafonePage() {
   return (
     <>
-      <ScrollReveal />
+
       <div className="site-content pt-5">
         <div className="container">
           <div className="row mb-6 mb-md-9">

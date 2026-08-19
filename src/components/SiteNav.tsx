@@ -36,7 +36,7 @@ export default function SiteNav() {
         loop: false,
         autoplay: true,
         path: '/logo-animation.json',
-        rendererSettings: { preserveAspectRatio: 'xMidYMid slice' },
+        rendererSettings: { preserveAspectRatio: 'xMidYMid meet' },
       })
     })
   }, [])

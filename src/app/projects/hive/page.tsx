@@ -1,5 +1,5 @@
 import Footer from '@/components/Footer'
-import ScrollReveal from '@/components/ScrollReveal'
+
 
 export const metadata = { title: 'Hive - Tom Guy' }
 const WP1 = '/Hive'

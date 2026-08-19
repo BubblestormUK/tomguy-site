@@ -1,35 +1,33 @@
 import Footer from '@/components/Footer'
 import Link from 'next/link'
 
-const WP = 'https://www.tomguy.co/wp-content/uploads/2025/02'
-
 const projects = [
-  {
-    slug: 'nido',
-    name: 'Nido / Livensa Living',
-    image: `${WP}/bt-image.jpg`, // placeholder until you provide Nido image
-    description: 'Nido and Livensa Living are premium purpose-built student accommodation and young professional living brands operating across Europe. Leading the product and experience vision to create spaces where residents don\'t just live - they thrive.',
-    href: '/projects/nido',
-  },
   {
     slug: 'bt',
     name: 'Etc. at BT Group',
-    image: `${WP}/bt-image.jpg`,
-    description: 'Etc. at BT Group is BT\'s incubation hub. Etc. is designed to build products and services in categories adjacent to the core, using all the most beautiful parts of the mothership.',
+    image: '/BT/bt-image.jpg',
+    description: "Etc. at BT Group is BT's incubation hub. Etc. is designed to build products and services in categories adjacent to the core, using all the most beautiful parts of the mothership.",
     href: '/projects/bt',
+  },
+  {
+    slug: 'nido',
+    name: 'Nido / Livensa Living',
+    image: '/Nido/Zzdtk68jQArT07FI_Nido-Principe-Pio-Building-1R9A0966.jpg.avif',
+    description: "Nido and Livensa Living are premium purpose-built student accommodation and young professional living brands operating across Europe. Leading the product and experience vision to create spaces where residents don't just live - they thrive.",
+    href: '/projects/nido',
   },
   {
     slug: 'vodafone',
     name: 'Vodafone Smart Tech',
-    image: `${WP}/vodafone-image.jpg`,
-    description: 'Vodafone Smart Tech was Vodafone\'s consumer IoT business, which created category leading smart devices that create moments of magic in people\'s lives.',
+    image: '/Vodafone/neo-watch.jpg',
+    description: "Vodafone Smart Tech was Vodafone's consumer IoT business, which created category leading smart devices that create moments of magic in people's lives.",
     href: '/projects/vodafone',
   },
   {
     slug: 'hive',
     name: 'Hive',
-    image: `${WP}/hive-image.jpg`,
-    description: 'Hive brought the connected home to mass market in 2013 with the first ever smart thermostat, transforming home energy for millions of customers and simplifying the home heating experience.',
+    image: '/Hive/Hive-Project-Images_Portrait6-scaled.jpg',
+    description: "Hive brought the connected home to mass market in 2013 with the first ever smart thermostat, transforming home energy for millions of customers and simplifying the home heating experience.",
     href: '/projects/hive',
   },
 ]

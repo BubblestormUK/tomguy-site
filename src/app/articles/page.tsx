@@ -1,6 +1,6 @@
 'use client'
 import Footer from '@/components/Footer'
-import ScrollReveal from '@/components/ScrollReveal'
+
 import articlesData from '@/data/articles.json'
 
 const sourceTag: React.CSSProperties = {
@@ -27,7 +27,7 @@ export default function ArticlesPage() {
 
   return (
     <>
-      <ScrollReveal />
+
       <div className="site-content pt-5">
         <div className="container">
           <h1 className="mb-8 slide-left">Articles</h1>
