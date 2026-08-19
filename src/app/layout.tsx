@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import SiteNav from "@/components/SiteNav";
-import ScrollReveal from "@/components/ScrollReveal";
+import ConditionalNav from "@/components/ConditionalNav";
 
 export const metadata: Metadata = {
   title: "Tom Guy",
@@ -16,8 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-GB">
       <body>
-        <SiteNav />
-        <ScrollReveal />
+        <ConditionalNav />
         {children}
       </body>
     </html>
