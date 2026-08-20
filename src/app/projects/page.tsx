@@ -11,21 +11,15 @@ const projects = [
     description: "Etc. at BT Group is BT's incubation hub. Etc. is designed to build products and services in categories adjacent to the core, using all the most beautiful parts of the mothership.",
   },
   {
-    slug: 'nido',
-    name: 'Nido / Livensa Living',
-    image: '/Nido/Zzdtk68jQArT07FI_Nido-Principe-Pio-Building-1R9A0966.jpg.avif',
-    description: "Nido and Livensa Living are premium purpose-built student accommodation and young professional living brands operating across Europe. Leading the product and experience vision to create spaces where residents don't just live - they thrive.",
-  },
-  {
     slug: 'vodafone',
     name: 'Vodafone Smart Tech',
-    image: '/Vodafone/neo-watch.jpg',
+    image: '/Vodafone/vodafone-image.jpg',
     description: "Vodafone Smart Tech was Vodafone's consumer IoT business, which created category leading smart devices that create moments of magic in people's lives.",
   },
   {
     slug: 'hive',
     name: 'Hive',
-    image: '/Hive/Hive-Project-Images_Portrait6-scaled.jpg',
+    image: '/Hive/hive-image.jpg',
     description: "Hive brought the connected home to mass market in 2013 with the first ever smart thermostat, transforming home energy for millions of customers and simplifying the home heating experience.",
   },
 ]

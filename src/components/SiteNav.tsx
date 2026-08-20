@@ -36,7 +36,7 @@ export default function SiteNav() {
         loop: false,
         autoplay: true,
         path: '/logo-animation.json',
-        rendererSettings: { preserveAspectRatio: 'xMidYMid meet' },
+        rendererSettings: { preserveAspectRatio: 'xMidYMid slice' },
       })
     })
   }, [])
@@ -47,16 +47,16 @@ export default function SiteNav() {
   return (
     <>
       {/* Top header with Lottie logo */}
-      <div className="top-header pt-3" style={{ paddingBottom: '0.5rem' }}>
+      <div className="top-header bg-white pt-3" style={{ paddingBottom: '0.5rem' }}>
         <div className="container">
           <div className="row">
             <div className="col-12 position-relative">
               <div className="row align-content-between">
-                <div className="col-md-7 ms-auto">
-                  <div className="position-relative" style={{ height: '4rem' }}>
+                <div className="col-7 ms-auto">
+                  <div className="position-relative">
                     <div
                       ref={lottieRef}
-                      style={{ width: '100%', height: '100%' }}
+                      className="img-fluid top_log loadhidden scale-up"
                     />
                     <Link href="/" style={{ position: 'absolute', inset: 0 }} aria-label="Home" />
                   </div>
