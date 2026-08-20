@@ -53,10 +53,10 @@ export default function SiteNav() {
             <div className="col-12 position-relative">
               <div className="row align-content-between">
                 <div className="col-7 ms-auto">
-                  <div className="position-relative">
+                  <div className="position-relative" style={{ aspectRatio: '1900 / 400', width: '100%' }}>
                     <div
                       ref={lottieRef}
-                      className="img-fluid top_log"
+                      style={{ width: '100%', height: '100%', position: 'absolute', inset: 0 }}
                     />
                     <Link href="/" style={{ position: 'absolute', inset: 0 }} aria-label="Home" />
                   </div>
