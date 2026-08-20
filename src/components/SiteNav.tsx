@@ -56,7 +56,7 @@ export default function SiteNav() {
                   <div className="position-relative">
                     <div
                       ref={lottieRef}
-                      className="img-fluid top_log loadhidden scale-up"
+                      className="img-fluid top_log"
                     />
                     <Link href="/" style={{ position: 'absolute', inset: 0 }} aria-label="Home" />
                   </div>
