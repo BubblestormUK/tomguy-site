@@ -54,7 +54,7 @@ export default function HivePage() {
               <h1 className="mb-5 mb-md-6 slide-left">Hive</h1>
             </div>
             <div className="col-md-6">
-              <p className="top_summary slide-right">Hive brought the connected home to mass market in 2013 with the first ever smart thermostat, transforming home energy for millions of customers and simplifying the home heating experience.</p>
+              <p className="top_summary slide-right">The journey to create the UK&apos;s number one smart home brand, which brought the connected home to mass-market in 2013 by transforming home energy for millions of customers within a 200 year old business.</p>
             </div>
           </div>
           <div className="scale-up" style={{ display: 'grid', gridTemplateColumns: '1fr 1.6fr 1fr', gridTemplateRows: '1fr 1fr 1fr', gap: '6px', height: '520px', borderRadius: '0.5rem', overflow: 'hidden', marginBottom: '3rem' }}>
@@ -92,6 +92,12 @@ export default function HivePage() {
               </div>
             </div>
           ))}
+          <div className="container pb-5">
+            <a href="/projects/vodafone" className="next-post-link">
+              <span className="post-title">Vodafone Smart Tech</span>
+              <span className="arrow"> &gt;</span>
+            </a>
+          </div>
         </div>
       </div>
       <Footer />

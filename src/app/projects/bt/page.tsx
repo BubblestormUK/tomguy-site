@@ -97,6 +97,12 @@ export default function BTPage() {
               </div>
             </div>
           ))}
+          <div className="container pb-5">
+            <a href="/projects/vodafone" className="prev-post-link">
+              <span className="post-title">Vodafone Smart Tech</span>
+              <span className="arrow"> &gt;</span>
+            </a>
+          </div>
         </div>
       </div>
       <Footer />

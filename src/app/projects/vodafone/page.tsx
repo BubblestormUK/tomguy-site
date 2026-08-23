@@ -46,7 +46,7 @@ const subProjects = [
     title: 'Ultra Hub Family',
     summary: 'Vodafone were looking for an enhanced customer experience which matched the quality and seamlessness of its new WiFi technology when designing its latest router.',
     col1: 'Our research demonstrated that a router works best when out in the open, not obstructed by being in an enclosed space, so we set ourselves the task of designing a product which had a subtle yet desirable design language, inspired by the look of a speaker.',
-    col2: 'The final product had a soft texture designed to blend seamlessly into the home, with a design signature which served as a visual reminder of the WiFi waves flowing effortlessly through the home.',
+    col2: 'The final product had a soft texture designed to blend seamlessly into the home, with a design signature which served as a visual reminder of the WiFi waves flowing effortlessly through the home. The design language used to create the router was later used as a blueprint for all of the broadband hardware in the range.',
   },
 ]
 
@@ -99,6 +99,16 @@ export default function VodafonePage() {
               </div>
             </div>
           ))}
+          <div className="container pb-5">
+            <a href="/projects/hive" className="prev-post-link">
+              <span className="post-title">Hive</span>
+              <span className="arrow"> &gt;</span>
+            </a>
+            <a href="/projects/bt" className="next-post-link">
+              <span className="post-title">Etc. at BT Group</span>
+              <span className="arrow"> &gt;</span>
+            </a>
+          </div>
         </div>
       </div>
       <Footer />

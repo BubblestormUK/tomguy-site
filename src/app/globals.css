@@ -172,6 +172,11 @@ img { min-height: 0.01px; max-width: 100%; height: auto; }
 }
 .article-item .arrow-right { width: 1.5625rem; height: 1rem; }
 
+/* Project prev/next nav links */
+.prev-post-link, .next-post-link { color: #868686; text-decoration: none; display: inline-block; margin-top: 2rem; margin-bottom: 1rem; }
+.prev-post-link .post-title, .next-post-link .post-title { color: #868686; }
+.next-post-link { margin-left: 1rem; }
+
 /* ACCORDION (Playbook) */
 .accordion-holder { cursor: pointer; user-select: none; }
 .accordion-header { border-bottom: 1px solid #868686; padding-bottom: 0.5rem; position: relative; }
