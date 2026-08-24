@@ -1,7 +1,8 @@
-'use client'
 import Footer from '@/components/Footer'
+import { getArticles } from '@/lib/articles-store'
 
-import articlesData from '@/data/articles.json'
+export const metadata = { title: 'Articles - Tom Guy' }
+export const revalidate = 0
 
 const sourceTag: React.CSSProperties = {
   fontSize: '0.6rem',
@@ -22,20 +23,20 @@ const hashTag: React.CSSProperties = {
   display: 'inline-block',
 }
 
-export default function ArticlesPage() {
-  const sorted = [...articlesData].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+export default async function ArticlesPage() {
+  const articles = await getArticles()
+  const sorted = [...articles].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
   return (
     <>
-
       <div className="site-content pt-5">
         <div className="container">
           <h1 className="mb-8 slide-left">Articles</h1>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
-            {sorted.map((article, i) => {
-              const img = (article as any).image || ''
-              const tags: string[] = (article as any).tags || []
+            {sorted.map((article) => {
+              const img = article.image || ''
+              const tags: string[] = article.tags || []
               return (
                 <a key={article.id} href={article.url || '#'} target="_blank" rel="noopener noreferrer" className="slide-up"
                   style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', borderBottom: '1px solid #222', paddingBottom: '1.5rem' }}>
