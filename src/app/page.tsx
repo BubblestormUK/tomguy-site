@@ -24,6 +24,14 @@ const projects = [
     href: '/projects/hive',
   },
   {
+    slug: 'boxxed',
+    name: 'Boxxed.ai',
+    image: 'https://cdn.prod.website-files.com/67b35dcedc61b9219863860a/67cc6849922205e2fb9c1b58_Black%20%26%20White%20Simple%20Coming%20Soon%20Instagram%20Post%20(Square)%20(1440%20x%201080%20px)%20(4).png',
+    description: "Boxxed.ai is a GenAI business co-founded to help small and medium-sized companies embed AI and automation into the way they work. On-demand AI built in under a week.",
+    href: '/projects/boxxed',
+    imagePosition: 'center',
+  },
+  {
     slug: 'nido',
     name: 'Nido / Livensa Living',
     image: '/Nido/Zzdtk68jQArT07FI_Nido-Principe-Pio-Building-1R9A0966.jpg.avif',
