@@ -9,9 +9,9 @@ const img = {
   build: `${CDN}/67b624591a6d075d8107b89d_3.png`,
   run: `${CDN}/67b6245932482a4a4b0806de_8.png`,
   person: `${CDN}/67b35dcedc61b92198638798_Stack%20Images%2004.jpg`,
-  metrics: '/Boxxed/metrics.png',
-  workflows: '/Boxxed/workflows.png',
-  outreach: '/Boxxed/outreach.png',
+  metrics: `${CDN}/67cc6849922205e2fb9c1b58_Black%20%26%20White%20Simple%20Coming%20Soon%20Instagram%20Post%20(Square)%20(1440%20x%201080%20px)%20(4).png`,
+  workflows: `${CDN}/67cc681b057c076102dd2ce1_Black%20%26%20White%20Simple%20Coming%20Soon%20Instagram%20Post%20(Square)%20(1440%20x%201080%20px)%20(7).png`,
+  outreach: `${CDN}/67cddf8477152b4e94700cca_Black%20%26%20White%20Simple%20Coming%20Soon%20Instagram%20Post%20(Square)%20(1440%20x%201080%20px)%20(11).png`,
 }
 
 const subProjects = [
