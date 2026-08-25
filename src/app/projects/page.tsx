@@ -25,7 +25,7 @@ const projects = [
   {
     slug: 'nido',
     name: 'Nido / Livensa Living',
-    image: '/Nido/Zz4KmK8jQArT1FdB_ES-Classic-Studio-Nido-Principe-Pio-1.jpg.avif',
+    image: '/Nido/Zzdtk68jQArT07FI_Nido-Principe-Pio-Building-1R9A0966.jpg.avif',
     description: "Nido and Livensa Living are two of Europe's leading residential accommodation brands, serving 30,000+ students and young professionals across Spain, Portugal and Italy.",
   },
 ]

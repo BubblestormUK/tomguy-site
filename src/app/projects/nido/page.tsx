@@ -20,10 +20,17 @@ const subProjects = [
   },
   {
     image: '/Nido/Piscina-Residencia-de-Estudiantes-Livensa-Living-Sevilla.jpg',
-    title: 'Resident App & Web',
-    summary: 'The resident-facing digital experience spanned a unified booking and enquiry web platform across both brands, and a resident app serving 30,000+ students and young professionals across Spain, Portugal and Italy.',
-    col1: 'The web platform was rebuilt to handle the complexity of two distinct brands, multiple markets and multiple property types, creating a coherent journey from discovery through to booking without fragmenting the experience.',
-    col2: 'The resident app became the digital home for every resident: booking amenities, raising maintenance requests, managing their stay and staying connected with their community. Designed for simplicity, built to scale.',
+    title: 'Web Platform',
+    summary: 'The web platform was rebuilt to attract and convert prospective residents across both Nido and Livensa Living, handling the complexity of two distinct brands, multiple markets and multiple property types.',
+    col1: 'The customer journey was redesigned end-to-end: from discovery and property search through to enquiry and booking, creating a coherent experience that could convert at scale without fragmenting across brands.',
+    col2: 'Deep integrations with the property management system and invoicing platform brought the back-end in line with the front-end, giving the business real-time visibility of availability, bookings and payments in one place.',
+  },
+  {
+    image: '/Nido/room-single-gr-cartuja.jpg',
+    title: 'Resident App',
+    summary: 'The resident app became the digital home for every student and young professional staying with Nido and Livensa Living — their companion for everything from the moment they arrive to the moment they leave.',
+    col1: 'Residents could raise maintenance requests, book shared spaces for a film night or a study session, invite guests, access building information and stay connected with their community — all in one place, designed for simplicity.',
+    col2: 'Events, messaging and community features made the app a genuine social platform for the building, not just a utility. The result was a resident experience that felt premium, personal and genuinely useful across 30,000+ residents in Spain, Portugal and Italy.',
   },
   {
     image: '/Nido/cocinas-residencia-de-estudiantes-Livensa-Living-Malaga.jpg',
