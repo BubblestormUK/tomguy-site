@@ -17,7 +17,6 @@ const img = {
 const subProjects = [
   {
     image: img.metrics,
-    flip: false,
     title: 'Analyse',
     summary: 'The starting point is always understanding where AI genuinely creates value. That means mapping existing workflows, identifying the highest-friction points, and being honest about where the data and process are ready to support automation and where they are not.',
     col1: 'For the businesses we have worked with, the biggest gains have rarely been where they expected. Intake processes, research, briefing, content production and client reporting have consistently surfaced as the areas with the most to gain from intelligent automation.',
@@ -25,7 +24,6 @@ const subProjects = [
   },
   {
     image: img.workflows,
-    flip: true,
     title: 'Build',
     summary: 'Once the opportunity is clear, we design and build a custom solution. The work spans the full stack: from selecting and fine-tuning the right models to building the integrations that connect AI outputs to the tools and workflows the team already uses.',
     col1: 'Across our client work we have built AI-powered lead qualification and outreach workflows, automated content briefing and first-draft pipelines, intelligent document processing, and client reporting systems that pull from multiple data sources into polished, branded outputs.',
@@ -33,7 +31,6 @@ const subProjects = [
   },
   {
     image: img.outreach,
-    flip: false,
     title: 'Run',
     summary: 'Deployment is not the end of the work. AI solutions need to be monitored, maintained and evolved as the business changes, the models improve and new use cases emerge from what the initial automations reveal.',
     col1: 'We handle the full lifecycle after launch: performance monitoring, prompt and model updates, scaling as usage grows and expanding to adjacent workflows as the business gains confidence in what AI can do.',
@@ -72,24 +69,19 @@ export default function BoxxedPage() {
             overflow: 'hidden',
             marginBottom: '3rem',
           }}>
-            {/* Left: person photo, spans 2 rows */}
             <div style={{ ...cell, gridRow: '1 / 3' }}>
               <img src={img.person} alt="Boxxed" style={{ ...fill, objectPosition: 'center top' }} />
             </div>
-            {/* Centre top: Analyse */}
             <div style={{ ...cell, background: '#f0eef8' }}>
               <img src={img.analyse} alt="Analyse" style={{ ...fill, objectPosition: 'center 80%' }} />
             </div>
-            {/* Right top: dark label */}
             <div style={{ ...cell, ...dark }}>
               <p style={lbl}>Analyse</p>
               <p style={ttl}>Find where AI creates the most value in your business</p>
             </div>
-            {/* Centre bottom: Build */}
             <div style={{ ...cell, background: '#f0eef8' }}>
               <img src={img.build} alt="Build" style={{ ...fill, objectPosition: 'center 75%' }} />
             </div>
-            {/* Right bottom: dark label */}
             <div style={{ ...cell, ...dark }}>
               <p style={lbl}>Build &amp; Run</p>
               <p style={ttl}>Custom AI automations deployed and maintained end-to-end</p>
@@ -106,15 +98,15 @@ export default function BoxxedPage() {
             </div>
           </div>
 
-          {/* Sub-project sections */}
+          {/* Sub-project sections — identical pattern to Nido */}
           {subProjects.map((p, i) => (
             <div key={i} className={`row sub-project gx-md-8 mb-10 mb-md-0${i === 0 ? ' mt-7 mt-md-10' : ''}`}>
-              <div className={`col-md-6 ${p.flip ? 'slide-right order-md-last' : 'slide-left'}`}>
-                <div className="portrait_wrapper position-relative" style={{ background: '#f5f3f0', borderRadius: '0.5rem', overflow: 'hidden' }}>
-                  <img src={p.image} alt={p.title} className="image-fill top-0 border-radius" style={{ objectFit: 'contain', padding: '1rem' }} />
+              <div className={`col-md-6 ${i % 2 === 0 ? 'slide-left' : 'slide-right'}`}>
+                <div className="portrait_wrapper position-relative">
+                  <img src={p.image} alt={p.title} className="image-fill top-0 border-radius" />
                 </div>
               </div>
-              <div className={`col-md-6 ${p.flip ? 'slide-left order-md-first' : 'slide-right'}`}>
+              <div className={`col-md-6 ${i % 2 === 0 ? 'slide-right' : 'slide-left'}`}>
                 <h1 className="mb-5 mb-md-8 mt-5 mt-md-12">{p.title}</h1>
                 <p className="mb-5 mb-md-6">{p.summary}</p>
                 <div className="row">
