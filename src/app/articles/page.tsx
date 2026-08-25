@@ -41,11 +41,11 @@ export default async function ArticlesPage() {
                 <a key={article.id} href={article.url || '#'} target="_blank" rel="noopener noreferrer" className="slide-up"
                   style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', borderBottom: '1px solid #222', paddingBottom: '1.5rem' }}>
                   {img && (
-                    <div style={{ width: '100%', height: '200px', borderRadius: '0.5rem', overflow: 'hidden', marginBottom: '1rem' }}>
+                    <div style={{ width: '100%', borderRadius: '0.5rem', overflow: 'hidden', marginBottom: '1rem' }}>
                       <img
                         src={img}
                         alt={article.title}
-                        style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                        style={{ width: '100%', height: 'auto', display: 'block' }}
                       />
                     </div>
                   )}
