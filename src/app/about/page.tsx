@@ -56,6 +56,9 @@ export default function AboutPage() {
           <div className="row gx-md-8 mb-8 mb-md-10">
             <div className="col-md-6 slide-left">
               <h1 className="mb-5 mb-md-6">About</h1>
+              <p className="top_summary mb-6 mb-md-0">
+                I&apos;m a startup founder, product designer and board advisor passionate about building products that create magical moments in people&apos;s lives.
+              </p>
               <div className="row mb-7 mb-md-0 mt-md-10">
                 <div className="col-md-6 body_text_xs mb-4 mb-md-0">
                   <p><span style={{ fontWeight: 400 }}>I&apos;ve done a lot of things across my career, and being a founding partner and Chief Product Officer at Hive is the one that shaped everything after it. I was responsible for bringing the connected home to the mass market, transforming the way customers interacted firstly with their heating, then the entire smart home. Hive became an official Superbrand in 2015 and a CES Innovation honouree in 2019.</span></p>
