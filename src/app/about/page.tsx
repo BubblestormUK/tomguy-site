@@ -90,8 +90,8 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="col-md-6 order-md-1 scale-up">
-              <div className="media-text-split position-relative mb-5 mb-md-0">
-                <img src={`${WP}/Awards-Images-scaled.jpg`} className="image-fill border-radius" alt="Awards" />
+              <div className="media-text-split position-relative mb-5 mb-md-0" style={{ background: '#f5f5f5', borderRadius: '0.5rem' }}>
+                <img src={`${WP}/Awards-Images-scaled.jpg`} className="border-radius" alt="Awards" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'contain', padding: '1rem' }} />
               </div>
             </div>
             <div className="col-12 border-bottom order-md-3">

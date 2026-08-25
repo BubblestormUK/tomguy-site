@@ -42,9 +42,7 @@ export default function SuperpowerPage() {
                     Navigating ADHD in the workplace isn&apos;t a simple task. It requires nuance, empathy, and an understanding that if I&apos;m honest, most businesses just don&apos;t have. If we&apos;re going to build businesses that celebrate not just ADHD, but neurodivergence in its entirety, we have to see more vulnerability from the leaders that live with it. Its role models like Tom that help change perceptions within the industry and challenge the status quo.
                   </span>
                   <br />
-                  Dr James Kustow, author of How to Thrive with Adult ADHD
-                  <br /><br />
-                  <a href="https://www.amazon.co.uk/How-Thrive-Adult-ADHD-Productivity/dp/1785044524" target="_blank" rel="noopener noreferrer">Discover James&apos; Work &gt;</a>
+                  Dr James Kustow, author of How to Thrive with Adult ADHD &nbsp;<a href="https://www.amazon.co.uk/How-Thrive-Adult-ADHD-Productivity/dp/1785044524" target="_blank" rel="noopener noreferrer">Discover James&apos; Work &gt;</a>
                 </p>
               </div>
             </div>
