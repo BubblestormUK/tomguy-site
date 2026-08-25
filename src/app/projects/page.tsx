@@ -22,6 +22,12 @@ const projects = [
     image: '/Hive/hive-image.jpg',
     description: "Hive brought the connected home to mass market in 2013 with the first ever smart thermostat, transforming home energy for millions of customers and simplifying the home heating experience.",
   },
+  {
+    slug: 'nido',
+    name: 'Nido / Livensa Living',
+    image: '/Nido/Zz4KmK8jQArT1FdB_ES-Classic-Studio-Nido-Principe-Pio-1.jpg.avif',
+    description: "Nido and Livensa Living are two of Europe's leading residential accommodation brands, serving 30,000+ students and young professionals across Spain, Portugal and Italy.",
+  },
 ]
 
 export default function ProjectsPage() {
