@@ -75,7 +75,7 @@ export default function AboutPage() {
             </div>
             <div className="col-md-6 scale-up">
               <div className="portrait_wrapper position-relative">
-                <img src={`${WP}/about_top.jpg`} alt="Tom Guy" className="image-fill top-0 border-radius" />
+                <img src="/Tom Guy_Profile Pic.jpg" alt="Tom Guy" className="image-fill top-0 border-radius" style={{ filter: 'grayscale(100%)' }} />
               </div>
             </div>
           </div>
