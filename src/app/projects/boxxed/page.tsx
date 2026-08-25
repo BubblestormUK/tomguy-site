@@ -72,15 +72,15 @@ export default function BoxxedPage() {
             <div style={{ ...cell, gridRow: '1 / 3' }}>
               <img src={img.person} alt="Boxxed" style={{ ...fill, objectPosition: 'center top' }} />
             </div>
-            <div style={{ ...cell, background: '#f0eef8' }}>
-              <img src={img.analyse} alt="Analyse" style={{ ...fill, objectPosition: 'center 80%' }} />
+            <div style={{ ...cell, background: '#ece9f4' }}>
+              <img src={img.analyse} alt="Analyse" style={{ ...fill, objectFit: 'contain' }} />
             </div>
             <div style={{ ...cell, ...dark }}>
               <p style={lbl}>Analyse</p>
               <p style={ttl}>Find where AI creates the most value in your business</p>
             </div>
-            <div style={{ ...cell, background: '#f0eef8' }}>
-              <img src={img.build} alt="Build" style={{ ...fill, objectPosition: 'center 75%' }} />
+            <div style={{ ...cell, background: '#ece9f4' }}>
+              <img src={img.build} alt="Build" style={{ ...fill, objectFit: 'contain' }} />
             </div>
             <div style={{ ...cell, ...dark }}>
               <p style={lbl}>Build &amp; Run</p>
@@ -102,8 +102,8 @@ export default function BoxxedPage() {
           {subProjects.map((p, i) => (
             <div key={i} className={`row sub-project gx-md-8 mb-10 mb-md-0${i === 0 ? ' mt-7 mt-md-10' : ''}`}>
               <div className={`col-md-6 ${i % 2 === 0 ? 'slide-left' : 'slide-right'}`}>
-                <div className="portrait_wrapper position-relative">
-                  <img src={p.image} alt={p.title} className="image-fill top-0 border-radius" />
+                <div className="portrait_wrapper position-relative border-radius" style={{ background: '#ece9f4' }}>
+                  <img src={p.image} alt={p.title} className="image-fill top-0 border-radius" style={{ objectFit: 'contain' }} />
                 </div>
               </div>
               <div className={`col-md-6 ${i % 2 === 0 ? 'slide-right' : 'slide-left'}`}>
