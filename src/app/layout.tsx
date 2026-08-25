@@ -6,8 +6,10 @@ export const metadata: Metadata = {
   title: "Tom Guy",
   description: "Developing Products. Building Startups. Driving Innovation. Creating Culture.",
   icons: {
-    icon: "/favicon.png",
-    apple: "/apple-touch-icon.png",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.png", type: "image/png", sizes: "32x32" },
+    ],
   },
 };
 
