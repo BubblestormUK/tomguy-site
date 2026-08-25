@@ -9,9 +9,9 @@ const img = {
   build: `${CDN}/67b624591a6d075d8107b89d_3.png`,
   run: `${CDN}/67b6245932482a4a4b0806de_8.png`,
   person: `${CDN}/67b35dcedc61b92198638798_Stack%20Images%2004.jpg`,
-  metrics: `${CDN}/67cc6849922205e2fb9c1b58_Black%20%26%20White%20Simple%20Coming%20Soon%20Instagram%20Post%20(Square)%20(1440%20x%201080%20px)%20(4).png`,
-  workflows: `${CDN}/67cc681b057c076102dd2ce1_Black%20%26%20White%20Simple%20Coming%20Soon%20Instagram%20Post%20(Square)%20(1440%20x%201080%20px)%20(7).png`,
-  outreach: `${CDN}/67cddf8477152b4e94700cca_Black%20%26%20White%20Simple%20Coming%20Soon%20Instagram%20Post%20(Square)%20(1440%20x%201080%20px)%20(11).png`,
+  metrics: '/Boxxed/metrics.png',
+  workflows: '/Boxxed/workflows.png',
+  outreach: '/Boxxed/outreach.png',
 }
 
 const subProjects = [
@@ -102,7 +102,7 @@ export default function BoxxedPage() {
           {subProjects.map((p, i) => (
             <div key={i} className={`row sub-project gx-md-8 mb-10 mb-md-0${i === 0 ? ' mt-7 mt-md-10' : ''}`}>
               <div className={`col-md-6 ${i % 2 === 0 ? 'slide-left' : 'slide-right'}`}>
-                <div className="portrait_wrapper position-relative border-radius" style={{ background: '#ece9f4' }}>
+                <div className="portrait_wrapper position-relative border-radius">
                   <img src={p.image} alt={p.title} className="image-fill top-0 border-radius" style={{ objectFit: 'contain' }} />
                 </div>
               </div>

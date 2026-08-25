@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 
-type Testimonial = { quote: string; name: string; image: string }
+type Testimonial = { quote: string; name: string; image: string; link?: string; linkText?: string }
 
 export default function TestimonialSlider({ testimonials }: { testimonials: Testimonial[] }) {
   const [idx, setIdx] = useState(0)
@@ -15,6 +15,7 @@ export default function TestimonialSlider({ testimonials }: { testimonials: Test
             <span style={{ color: '#868686' }}>{t.quote}</span>
             <br />
             {t.name}
+            {t.link && <><br /><a href={t.link} target="_blank" rel="noopener noreferrer">{t.linkText || 'Discover his work'}</a></>}
           </p>
         </div>
         <div className="col-md-6 order-md-first">

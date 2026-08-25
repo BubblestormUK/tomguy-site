@@ -35,6 +35,8 @@ const testimonials = [
     quote: "Navigating ADHD in the workplace isn't a simple task. It requires nuance, empathy, and an understanding that if I'm honest, most businesses just don't have. If we're going to build businesses that celebrate not just ADHD, but neurodivergence in its entirety, we have to see more vulnerability from the leaders that live with it. Its role models like Tom that help change perceptions within the industry, challenge the status quo and prove that neurodiversity can be a major asset to an organisation if properly embraced and nurtured.",
     name: "Dr James Kustow, author of How to Thrive with Adult ADHD",
     image: `${WP}/testimonial-placeholder-dr-james-kustow.jpg`,
+    link: 'https://www.amazon.co.uk/How-Thrive-Adult-ADHD-Productivity/dp/1785044524',
+    linkText: 'Get his book',
   },
   {
     quote: "Tom and I have collaborated on designing many different products over the years, beginning with his days at Hive. Over this time I've found Tom's approach is like no other leader involved in design, as passionate about the details as he is the big picture thinking, helping to navigate and curate the delicate relationship between functionality, visual identity, and user experience. Combining this journey with Tom's personality and charisma makes him an amazing storyteller, which is a huge asset to the companies and brands he works with.",
