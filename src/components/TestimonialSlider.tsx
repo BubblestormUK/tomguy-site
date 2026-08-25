@@ -15,7 +15,7 @@ export default function TestimonialSlider({ testimonials }: { testimonials: Test
             <span style={{ color: '#868686' }}>{t.quote}</span>
             <br />
             {t.name}
-            {t.link && <><br /><a href={t.link} target="_blank" rel="noopener noreferrer">{t.linkText || 'Discover his work'}</a></>}
+            {t.link && <><br /><br /><a href={t.link} target="_blank" rel="noopener noreferrer">Discover James&apos; Work &gt;</a></>}
           </p>
         </div>
         <div className="col-md-6 order-md-first">

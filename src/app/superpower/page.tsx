@@ -43,7 +43,8 @@ export default function SuperpowerPage() {
                   </span>
                   <br />
                   Dr James Kustow, author of How to Thrive with Adult ADHD
-                  <br /><a href="https://www.amazon.co.uk/How-Thrive-Adult-ADHD-Productivity/dp/1785044524" target="_blank" rel="noopener noreferrer">Get his book</a>
+                  <br /><br />
+                  <a href="https://www.amazon.co.uk/How-Thrive-Adult-ADHD-Productivity/dp/1785044524" target="_blank" rel="noopener noreferrer">Discover James&apos; Work &gt;</a>
                 </p>
               </div>
             </div>

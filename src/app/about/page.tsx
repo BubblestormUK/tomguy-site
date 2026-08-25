@@ -36,7 +36,6 @@ const testimonials = [
     name: "Dr James Kustow, author of How to Thrive with Adult ADHD",
     image: `${WP}/testimonial-placeholder-dr-james-kustow.jpg`,
     link: 'https://www.amazon.co.uk/How-Thrive-Adult-ADHD-Productivity/dp/1785044524',
-    linkText: 'Get his book',
   },
   {
     quote: "Tom and I have collaborated on designing many different products over the years, beginning with his days at Hive. Over this time I've found Tom's approach is like no other leader involved in design, as passionate about the details as he is the big picture thinking, helping to navigate and curate the delicate relationship between functionality, visual identity, and user experience. Combining this journey with Tom's personality and charisma makes him an amazing storyteller, which is a huge asset to the companies and brands he works with.",
