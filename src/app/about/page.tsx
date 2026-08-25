@@ -3,7 +3,7 @@ import TestimonialSlider from '@/components/TestimonialSlider'
 
 export const metadata = { title: 'About - Tom Guy' }
 
-const WP = 'https://www.tomguy.co/wp-content/uploads/2025/02'
+const WP = '/WP'
 
 const testimonials = [
   {

@@ -2,7 +2,7 @@ import Footer from '@/components/Footer'
 
 export const metadata = { title: 'Superpower - Tom Guy' }
 
-const WP = 'https://www.tomguy.co/wp-content/uploads/2025/02'
+const WP = '/WP'
 
 export default function SuperpowerPage() {
   return (

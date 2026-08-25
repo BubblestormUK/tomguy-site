@@ -3,7 +3,7 @@ import AccordionSection from '@/components/AccordionSection'
 
 export const metadata = { title: 'Playbook - Tom Guy' }
 
-const WP = 'https://www.tomguy.co/wp-content/uploads/2025/02'
+const WP = '/WP'
 
 const sections = [
   {

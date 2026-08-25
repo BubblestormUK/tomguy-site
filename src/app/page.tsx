@@ -71,7 +71,7 @@ export default function Home() {
                   loop
                   className="video-fill border-radius"
                 >
-                  <source src="https://www.tomguy.co/wp-content/uploads/2025/02/NEW-PENDING-For-Tammy-reference-only-sizzle.mp4" type="video/mp4" />
+                  <source src="/WP/sizzle.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>
